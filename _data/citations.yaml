@@ -1,264 +1,1190 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.64898/2025.12.08.25341603
+  title: Data Resource Profile Health Insurance Review and Assessment Service Korean
+    Nationwide Claims OMOP-CDM (2015-2024) database, "HIRA K-OMOP"
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
+  - Dong Han Yu
+  - Sun Mi Lim
+  - Hyun Chul Shin
+  - Moosung Kim
+  - Seng Chan You
+  - Rae Woong Park
+  - Chungsoo Kim
+  publisher: medRxiv (Under Review)
+  date: '2025-12-11'
+  link: https://doi.org/hbgfm7
+  orcid: 0000-0003-1802-1777
+  plugin: sources.py
+  file: sources.yaml
+  image: ./images/citation_images/2025_HIRAKCDM.png
+  tags:
+  - database
+- id: doi:10.1101/2025.10.06.25337411
+  title: Prescribing of GLP-1 Receptor Agonists for Adolescents with Obesity and Associated
+    Disparities
+  authors:
+  - Chungsoo Kim
+  - Mona Sharifi
+  - Joseph S. Ross
+  - Yong Chen
+  - Hua Xu
+  - Harlan M. Krumholz
+  - Yuan Lu
+  publisher: medRxiv (Accepted)
+  date: '2025-10-07'
+  link: https://doi.org/hbgfm8
+  orcid: 0000-0003-1802-1777
+  plugin: sources.py
+  file: sources.yaml
+  image: ./images/citation_images/2025_JamaPeds.png
+  tags:
+  - big data
+  - obesity
+- id: doi:10.1016/j.jacadv.2025.101912
+  title: Association Between Neighborhood-Level Social Vulnerability and Hypertension
+    Outcomes
+  authors:
+  - John E. Brush
+  - Chungsoo Kim
+  - Yuntian Liu
+  - Xin Xin
+  - Chenxi Huang
+  - Iris J. Lundy
+  - Jordan R. Asher
+  - Mitsuaki Sawano
+  - Patrick Young
+  - Jacob McPadden
+  - Mark Anderson
+  - John S. Burrows
+  - Harlan M. Krumholz
+  - Yuan Lu
+  publisher: 'JACC: Advances'
+  date: '2025-08-01'
+  link: https://doi.org/hbgfm9
+  orcid: 0000-0003-1802-1777
+  plugin: sources.py
+  file: sources.yaml
+  image: ./images/citation_images/2025_JaccAdvances.png
+  tags:
+  - big data
+  - hypertension
+- id: doi:10.1101/2025.07.16.25331661
+  title: Survival Outcomes after Monitoring, Surgery, or Radiotherapy for Clinically
+    Localized Prostate Cancer
+  authors:
+  - Min Ho An
+  - Chungsoo Kim
+  - Kyungchan Min
+  - Kyu-Ho Yi
+  - Rae Woong Park
+  - Minji Jung
+  publisher: medRxiv
+  date: '2025-07-18'
+  link: https://doi.org/hbgfnb
+  orcid: 0000-0003-1802-1777
+  plugin: sources.py
+  file: sources.yaml
+  image: ./images/citation_images/2025_prostateCa.png
+- id: doi:10.1002/cpt.3614
+  title: "Impact of Regulatory Post\u2010Market Safety Advisories on Prescribing Practices:\
+    \ An Interrupted Time Series Analysis"
+  authors:
+  - Seonji Kim
+  - Subin Kim
+  - Chungsoo Kim
+  - Junhyuk Chang
+  - Rae Woong Park
+  - Kyung Won Kim
+  - Seng Chan You
+  publisher: Clinical Pharmacology &amp; Therapeutics
+  date: '2025-02-22'
+  link: https://doi.org/hbgfnc
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/jcm14103349
+  title: 'Renal and Safety Outcomes of SGLT2 Inhibitors in Patients with Type 2 Diabetes:
+    A Nationwide Observational Cohort Study'
+  authors:
+  - Junhyuk Chang
+  - Chungsoo Kim
+  - Heejung Choi
+  - Rae Woong Park
+  - Sukhyang Lee
+  publisher: Journal of Clinical Medicine
+  date: '2025-05-12'
+  link: https://doi.org/hbgfnd
+  orcid: 0000-0003-1802-1777
+  plugin: sources.py
+  file: sources.yaml
+  image: ./images/citation_images/2025_JCM.png
+- id: doi:10.1101/2025.05.08.25327248
+  title: 'Comparative Safety of Second-Line Antihyperglycemic Agents in Older Adults
+    with Type 2 Diabetes: A Multinational Real-World Evidence From LEGEND-T2DM'
+  authors:
+  - Chungsoo Kim
+  - Fan Bu
+  - Clair Blacketer
+  - Anna Ostropolets
+  - Talita Duarte-Salles
+  - Benjamin Viernes
+  - Thomas Falconer
+  - Andrea Pistillo
+  - Jing Li
+  - Can Yin
+  - Mui Van Zandt
+  - Paul Nagy
+  - Akihiko Nishimura
+  - Evan Minty
+  - Seng Chan You
+  - Mitsuaki Sawano
+  - Shoko Sawano
+  - Ja Young Jeon
+  - Arya Aminorroaya
+  - Lovedeep S. Dhingra
+  - Aline F. Pedroso
+  - Phyllis Thangraraj
+  - David A. Dorr
+  - Nicole Pratt
+  - Kenneth K.C. Man
+  - Wallis C.Y. Lau
+  - Daniel R. Morales
+  - Rohan Khera
+  - Martijn Schuemie
+  - Patrick B. Ryan
+  - George Hripcsak
+  - Harlan M. Krumholz
+  - Marc A. Suchard
+  - Yuan Lu
   publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  date: '2025-05-09'
+  link: https://doi.org/hbgfnf
+  orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1001/jama.2025.4735
+  title: Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for
+    Obesity in the US
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
-  authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
-  authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
-  authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
-  authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
-  authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1371/journal.pcbi.1007128
-  title: Open collaborative writing with Manubot
-  authors:
-  - Daniel S. Himmelstein
-  - Vincent Rubinetti
-  - David R. Slochower
-  - Dongbo Hu
-  - Venkat S. Malladi
-  - Casey S. Greene
-  - Anthony Gitter
-  publisher: PLOS Computational Biology
-  date: '2020-12-04'
-  link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
+  - Chungsoo Kim
+  - Joseph S. Ross
+  - Ania M. Jastreboff
+  - Daniella Meeker
+  - Harry Freedman
+  - Harlan M. Krumholz
+  - Yuan Lu
+  publisher: JAMA
+  date: '2025-06-24'
+  link: https://doi.org/hbgfng
+  orcid: 0000-0003-1802-1777
   plugin: sources.py
   file: sources.yaml
   type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
-    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  image: ./images/citation_images/2025_JAMA.png
   buttons:
-  - type: manubot
-    link: https://greenelab.github.io/meta-review/
-  - type: source
-    text: Manuscript Source
-    link: https://github.com/greenelab/meta-review
-  - type: website
-    link: http://manubot.org/
+  - type: Repo
+    link: null
   tags:
-  - open science
-  - collaboration
-  repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  - big data
+  - obesity
+- id: doi:10.1016/j.eclinm.2025.103096
+  title: 'Risk of aortic aneurysm or dissection following use of fluoroquinolones:
+    a retrospective multinational network cohort study'
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
+  - Jack L. Janetzki
+  - Jung Ho Kim
+  - Evan Minty
+  - Jung Ah Lee
+  - Daniel R. Morales
+  - Rohan Khera
+  - Chungsoo Kim
+  - Thamir M. Alshammari
+  - Scott L. DuVall
+  - Michael E. Matheny
+  - Thomas Falconer
+  - Seonji Kim
+  - Thanh-Phuc Phan
+  - Phung-Anh Nguyen
+  - Min-Huei Hsu
+  - Jason C. Hsu
+  - Rae Woong Park
+  - Kenneth K.C. Man
+  - Sarah Seager
+  - Mui Van Zandt
+  - James P. Gilbert
+  - Patrick B. Ryan
+  - Martijn J. Schuemie
+  - Marc A. Suchard
+  - George Hripcsak
+  - Nicole Pratt
+  - Seng Chan You
+  publisher: eClinicalMedicine
+  date: '2025-03-01'
+  link: https://doi.org/hbgfnh
+  orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1016/j.csbj.2020.05.017
-  title: Constructing knowledge graphs and their biomedical applications
+- id: doi:10.3349/ymj.2024.0320
+  title: Real-World Effectiveness of Omalizumab Treatment in Adult Asthma Patients
   authors:
-  - David N. Nicholson
-  - Casey S. Greene
-  publisher: Computational and Structural Biotechnology Journal
-  date: '2020-01-01'
-  link: https://doi.org/gg7m48
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.7554/eLife.32822
-  title: Sci-Hub provides access to nearly all scholarly literature
+  - Jae-Hyuk Jang
+  - ChulHyoung Park
+  - Chungsoo Kim
+  - Youngsoo Lee
+  - Eunyoung Lee
+  - Rae Woong Park
+  - Hae-Sim Park
+  publisher: Yonsei Medical Journal
+  date: '2025-01-01'
+  link: https://doi.org/hbgfnj
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/ije/dyae062
+  title: 'Data Resource Profile: Health Insurance Review and Assessment Service Covid-19
+    Observational Medical Outcomes Partnership (HIRA Covid-19 OMOP) database in South
+    Korea'
   authors:
-  - Daniel S Himmelstein
-  - Ariel Rodriguez Romero
-  - Jacob G Levernier
-  - Thomas Anthony Munro
-  - Stephen Reid McLaughlin
-  - Bastian Greshake Tzovaras
-  - Casey S Greene
-  publisher: eLife
-  date: '2018-03-01'
-  link: https://doi.org/ckcj
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  - Chungsoo Kim
+  - Dong Han Yu
+  - Hyeran Baek
+  - Jaehyeong Cho
+  - Seng Chan You
+  - Rae Woong Park
+  publisher: International Journal of Epidemiology
+  date: '2024-04-11'
+  link: https://doi.org/hbgfnk
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1136/bmjresp-2023-002127
+  title: Real-world treatment trajectories of adults with newly diagnosed asthma or
+    COPD
+  authors:
+  - Aniek F Markus
+  - Peter R Rijnbeek
+  - Jan A Kors
+  - Edward Burn
+  - Talita Duarte-Salles
+  - Markus Haug
+  - Chungsoo Kim
+  - Raivo Kolde
+  - Youngsoo Lee
+  - Hae-Sim Park
+  - Rae Woong Park
+  - Daniel Prieto-Alhambra
+  - Carlen Reyes
+  - Jerry A Krishnan
+  - Guy G Brusselle
+  - Katia MC Verhamme
+  publisher: BMJ Open Respiratory Research
+  date: '2024-02-01'
+  link: https://doi.org/g9txs8
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3233/SHTI231242
+  title: 'A De-Identification Model for Korean Clinical Notes: Using Deep Learning
+    Models'
+  authors:
+  - Junhyuk Chang
+  - Jimyung Park
+  - Chungsoo Kim
+  - Rae Woong Park
+  publisher: Studies in Health Technology and Informatics
+  date: '2024-01-25'
+  link: https://doi.org/hbgfnm
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3233/SHTI231233
+  title: Prediction Models for Readmission Using Home Healthcare Notes and OMOP-CDM
+  authors:
+  - Sujin Gan
+  - Chungsoo Kim
+  - Dong Yun Lee
+  - Rae Woong Park
+  publisher: Studies in Health Technology and Informatics
+  date: '2024-01-25'
+  link: https://doi.org/hbgfnn
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3233/SHTI231251
+  title: 'RHEA: Real-World Observational Health Data Exploration Application'
+  authors:
+  - Soobeen Seol
+  - Jimyung Park
+  - Chungsoo Kim
+  - Dong Yun Lee
+  - Rae Woong Park
+  publisher: Studies in Health Technology and Informatics
+  date: '2024-01-25'
+  link: https://doi.org/hbgfnp
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1001/JAMANETWORKOPEN.2024.38398
+  title: Combined Methylphenidate and Selective Serotonin Reuptake Inhibitors in Adults
+    With Attention-Deficit/Hyperactivity Disorder
+  authors:
+  - Dong Yun Lee
+  - Chungsoo Kim
+  - Yunmi Shin
+  - Rae Woong Park
+  publisher: JAMA Network Open
+  date: '2024-10-09'
+  link: https://doi.org/hbgfnq
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/JBMR/ZJAE070
+  title: Comparative effectiveness and safety outcomes between denosumab and bisphosphonate
+    in South Korea
+  authors:
+  - ChulHyoung Park
+  - Chungsoo Kim
+  - Rae Woong Park
+  - Ja Young Jeon
+  publisher: Journal of Bone and Mineral Research
+  date: '2024-05-09'
+  link: https://doi.org/hbgfnr
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/S12888-024-05578-6
+  title: 'Comparative estimation of the effects of antihypertensive medications on
+    schizophrenia occurrence: a multinational observational cohort study'
+  authors:
+  - Dong Yun Lee
+  - Chungsoo Kim
+  - Jiwoo Kim
+  - Jeongwon Yun
+  - Yujin Lee
+  - Celine Sze Ling Chui
+  - Sang Joon Son
+  - Rae Woong Park
+  - Seng Chan You
+  publisher: BMC Psychiatry
+  date: '2024-02-16'
+  link: https://doi.org/hbgfns
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:PPRN:112578409
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:PPRN:112578409
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4258/HIR.2024.30.2.168
+  title: 'Corrigendum to: Development and Verification of Time-Series Deep Learning
+    for Drug-Induced Liver Injury Detection in Patients Taking Angiotensin II Receptor
+    Blockers: A Multicenter Distributed Research Network Approach'
+  authors:
+  - Suncheol Heo
+  - Jae Yong Yu
+  - Eun Ae Kang
+  - Hyunah Shin
+  - Kyeongmin Ryu
+  - Chungsoo Kim
+  - Yebin Chega
+  - Hyojung Jung
+  - Suehyun Lee
+  - Rae Woong Park
+  - Kwangsoo Kim
+  - Yul Hwangbo
+  - Jae-Hyun Lee
+  - Yu Rang Park
+  publisher: Healthcare Informatics Research
+  date: '2024-04-30'
+  link: https://doi.org/hbgfnt
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.IJNURSTU.2024.104850
+  title: 'Enhancing readmission prediction models by integrating insights from home
+    healthcare notes: Retrospective cohort study'
+  authors:
+  - Sujin Gan
+  - Chungsoo Kim
+  - Junhyuck Chang
+  - Dong Yun Lee
+  - Rae Woong Park
+  publisher: International Journal of Nursing Studies
+  date: '2024-10-01'
+  link: https://doi.org/hbgfnv
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.ECLINM.2024.102903
+  title: 'Incidence of post-acute COVID-19 symptoms across healthcare settings in
+    seven countries: an international retrospective cohort study using routinely-collected
+    data'
+  authors:
+  - Junqing Xie
+  - "Kim L\xF3pez-G\xFCell"
+  - Daniel Dedman
+  - Talita Duarte-Salles
+  - Raivo Kolde
+  - "Ra\xFAl L\xF3pez-Blasco"
+  - "\xC1lvaro Mart\xEDnez"
+  - Gregoire Mercier
+  - Alicia Abellan
+  - Johnmary T. Arinze
+  - Zara Cuccu
+  - Antonella Delmestri
+  - Dominique Delseny
+  - Sara Khalid
+  - Chungsoo Kim
+  - Ji-woo Kim
+  - Kristin Kostka
+  - Cora Loste
+  - Lourdes Mateu
+  - Miguel A. Mayer
+  - "Jaime Mel\xE9ndez-Cardiel"
+  - "N\xFAria Mercad\xE9-Besora"
+  - Mees Mosseveld
+  - Akihito Nishimura
+  - Hedvig M.E. Nordeng
+  - Jessie O. Oyinlola
+  - "Laura P\xE9rez-Crespo"
+  - "Marta Pineda-Moncus\xED"
+  - "Juan Manuel Ram\xEDrez-Anguita"
+  - Nhung T.H. Trinh
+  - "Anneli Uusk\xFCla"
+  - Bernardo Valdivieso
+  - Theresa Burkard
+  - Edward Burn
+  - "Mart\xED Catal\xE0"
+  - Daniel Prieto-Alhambra
+  - Roger Paredes
+  - "Annika M. J\xF6dicke"
+  publisher: eClinicalMedicine
+  date: '2024-11-01'
+  link: https://doi.org/g8q5tz
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1161/HYP.81.SUPPL_1.MP20
+  title: 'Abstract MP20: Leveraging Electronic Health Records to Assess Neighborhood
+    Advantages and Risk of Cardiovascular Outcomes Among Hypertensive Patients'
+  authors:
+  - Yuan Lu
+  - Xin Xin
+  - Chungsoo Kim
+  - Jordan Asher
+  - Harlan Krumholz
+  - John Brush
+  publisher: Hypertension
+  date: '2024-09-01'
+  link: https://doi.org/hbgfnw
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JAIP.2023.10.029
+  title: Real-World Effectiveness of Statin Therapy in Adult Asthma
+  authors:
+  - ChulHyoung Park
+  - Jae-Hyuk Jang
+  - Chungsoo Kim
+  - Youngsoo Lee
+  - Eunyoung Lee
+  - Hyoung-Mo Yang
+  - Rae Woong Park
+  - Hae-Sim Park
+  publisher: 'The Journal of Allergy and Clinical Immunology: In Practice'
+  date: '2024-02-01'
+  link: https://doi.org/hbgfnx
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1161/HYP.81.SUPPL_1.P137
+  title: 'Abstract P137: Real-World Impact of Semaglutide on Cardiometabolic Risk
+    Factors in Patients without Diabetes: A Multi-Center Analysis of Electronic Health
+    Records'
+  authors:
+  - Chungsoo Kim
+  - Yuntian Liu
+  - Ania Jastreboff
+  - Rohan Khera
+  - Harlan Krumholz
+  - John Brush
+  - Yuan Lu
+  publisher: Hypertension
+  date: '2024-09-01'
+  link: https://doi.org/hbgfnz
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.AJP.2023.103857
+  title: "Safety outcomes of antipsychotics classes in drug-na\xEFve patients with\
+    \ first-episode schizophrenia: A nationwide cohort study in South Korea"
+  authors:
+  - Dong Yun Lee
+  - Chungsoo Kim
+  - Dong Han Yu
+  - Rae Woong Park
+  publisher: Asian Journal of Psychiatry
+  date: '2024-01-01'
+  link: https://doi.org/g7cxnj
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/47693
+  title: 'Time Series AI Model for Acute Kidney Injury Detection Based on a Multicenter
+    Distributed Research Network: Development and Verification Study'
+  authors:
+  - Suncheol Heo
+  - Eun-Ae Kang
+  - Jae Yong Yu
+  - Hae Reong Kim
+  - Suehyun Lee
+  - Kwangsoo Kim
+  - Yul Hwangbo
+  - Rae Woong Park
+  - Hyunah Shin
+  - Kyeongmin Ryu
+  - Chungsoo Kim
+  - Hyojung Jung
+  - Yebin Chegal
+  - Jae-Hyun Lee
+  - Yu Rang Park
+  publisher: JMIR Medical Informatics
+  date: '2024-07-05'
+  link: https://doi.org/hbgfn2
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.IJANTIMICAG.2024.107174
+  title: "Erratum to \u201CTranslation of Machine Learning-Based Prediction Algorithms\
+    \ to Personalised Empiric Antibiotic Selection: A Population-Based Cohort Study\u201D\
+    \ International Journal of Antimicrobial Agents 62 (2023) 106966"
+  authors:
+  - Chungsoo Kim
+  - Young Hwa Choi
+  - Jung Yoon Choi
+  - Hee Jung Choi
+  - Rae Woong Park
+  - Sandy Jeong Rhie
+  publisher: International Journal of Antimicrobial Agents
+  date: '2024-06-01'
+  link: https://doi.org/hbgfn3
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.46165
+  title: 'Privacy-Preserving Federated Model Predicting Bipolar Transition in Patients
+    With Depression: Prediction Model Development Study (Preprint)'
+  authors:
+  - Dong Yun Lee
+  - Byungjin Choi
+  - Chungsoo Kim
+  - Egill Fridgeirsson
+  - Jenna Reps
+  - Myoungsuk Kim
+  - Jihyeong Kim
+  - Jae-Won Jang
+  - Sang Youl Rhee
+  - Won-Woo Seo
+  - Seunghoon Lee
+  - Sang Joon Son
+  - Rae Woong Park
+  publisher: JMIR Publications Inc.
+  date: '2023-02-01'
+  link: https://doi.org/hbgfn4
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1001/JAMANETWORKOPEN.2023.13667
+  title: "Association of 5\u03B1-Reductase Inhibitor Prescription With Bladder Cancer\
+    \ Progression in Males in South Korea"
+  authors:
+  - Min Ho An
+  - Min Seo Kim
+  - Chungsoo Kim
+  - Tae Il Noh
+  - Kwan Joong Joo
+  - Dong Hun Lee
+  - Kyu-Ho Yi
+  - Jeong Woo Kwak
+  - Tae-Ho Hwang
+  - Rae Woong Park
+  - Seok Ho Kang
+  publisher: JAMA Network Open
+  date: '2023-05-16'
+  link: https://doi.org/hbgfn5
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4258/HIR.2023.29.3.246
+  title: 'Development and Verification of Time-Series Deep Learning for Drug-Induced
+    Liver Injury Detection in Patients Taking Angiotensin II Receptor Blockers: A
+    Multicenter Distributed Research Network Approach'
+  authors:
+  - Suncheol Heo
+  - Jae Yong Yu
+  - Eun Ae Kang
+  - Hyunah Shin
+  - Kyeongmin Ryu
+  - Chungsoo Kim
+  - Yebin Chegal
+  - Hyojung Jung
+  - Suehyun Lee
+  - Rae Woong Park
+  - Kwangsoo Kim
+  - Yul Hwangbo
+  - Jae-Hyun Lee
+  - Yu Rang Park
+  publisher: Healthcare Informatics Research
+  date: '2023-07-31'
+  link: https://doi.org/hbgfn6
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/CEA.14362
+  title: "Long\u2010term clinical outcomes of aspirin\u2010exacerbated respiratory\
+    \ disease: Real\u2010world data from an adult asthma cohort"
+  authors:
+  - Youngsoo Lee
+  - Chungsoo Kim
+  - Eunyoung Lee
+  - Hyun Young Lee
+  - "Seong\u2010Dae Woo"
+  - Seng Chan You
+  - Rae Woong Park
+  - "Hae\u2010Sim Park"
+  publisher: Clinical &amp; Experimental Allergy
+  date: '2023-06-18'
+  link: https://doi.org/gsnppj
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/46165
+  title: 'Privacy-Preserving Federated Model Predicting Bipolar Transition in Patients
+    With Depression: Prediction Model Development Study'
+  authors:
+  - Dong Yun Lee
+  - Byungjin Choi
+  - Chungsoo Kim
+  - Egill Fridgeirsson
+  - Jenna Reps
+  - Myoungsuk Kim
+  - Jihyeong Kim
+  - Jae-Won Jang
+  - Sang Youl Rhee
+  - Won-Woo Seo
+  - Seunghoon Lee
+  - Sang Joon Son
+  - Rae Woong Park
+  publisher: Journal of Medical Internet Research
+  date: '2023-07-20'
+  link: https://doi.org/hbgfn7
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/JAMIA/OCAD009
+  title: 'Reproducible variability: assessing investigator discordance across 9 research
+    teams attempting to reproduce the same observational study'
+  authors:
+  - Anna Ostropolets
+  - Yasser Albogami
+  - Mitchell Conover
+  - Juan M Banda
+  - William A Baumgartner
+  - Clair Blacketer
+  - Priyamvada Desai
+  - Scott L DuVall
+  - Stephen Fortin
+  - James P Gilbert
+  - Asieh Golozar
+  - Joshua Ide
+  - Andrew S Kanter
+  - David M Kern
+  - Chungsoo Kim
+  - Lana Y H Lai
+  - Chenyu Li
+  - Feifan Liu
+  - Kristine E Lynch
+  - Evan Minty
+  - "Maria In\xEAs Neves"
+  - Ding Quan Ng
+  - Tontel Obene
+  - Victor Pera
+  - Nicole Pratt
+  - Gowtham Rao
+  - Nadav Rappoport
+  - Ines Reinecke
+  - Paola Saroufim
+  - Azza Shoaibi
+  - Katherine Simon
+  - Marc A Suchard
+  - Joel N Swerdel
+  - Erica A Voss
+  - James Weaver
+  - Linying Zhang
+  - George Hripcsak
+  - Patrick B Ryan
+  publisher: Journal of the American Medical Informatics Association
+  date: '2023-02-24'
+  link: https://doi.org/hbgfn8
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291723001022
+  title: "Safety Outcomes of Selective Serotonin Reuptake Inhibitors in Adolescent\
+    \ Attention-Deficit/Hyperactivity Disorder with Comorbid Depression: The ASSURE\
+    \ Study \u2013 CORRIGENDUM"
+  authors:
+  - Chungsoo Kim
+  - Dong Yun Lee
+  - Jimyung Park
+  - Su-Jin Yang
+  - Eng Hooi Tan
+  - Daniel Prieto-Alhambra
+  - Yo Han Lee
+  - Sangha Lee
+  - Seong-Ju Kim
+  - Jeewon Lee
+  - Rae Woong Park
+  - Yunmi Shin
+  publisher: Psychological Medicine
+  date: '2023-04-20'
+  link: https://doi.org/hbgfn9
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1017/S0033291723000120
+  title: 'Safety outcomes of selective serotonin reuptake inhibitors in adolescent
+    attention-deficit/hyperactivity disorder with comorbid depression: <i>the ASSURE
+    study</i>'
+  authors:
+  - Chungsoo Kim
+  - Dong Yun Lee
+  - Jimyung Park
+  - Su-Jin Yang
+  - Eng Hooi Tan
+  - Daniel Prieto-Alhambra
+  - Yo Han Lee
+  - Sangha Lee
+  - Seong-Ju Kim
+  - Jeewon Lee
+  - Rae Woong Park
+  - Yunmi Shin
+  publisher: Psychological Medicine
+  date: '2023-02-20'
+  link: https://doi.org/hbgfpb
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41597-023-02580-7
+  title: Scalable Infrastructure Supporting Reproducible Nationwide Healthcare Data
+    Analysis toward FAIR Stewardship
+  authors:
+  - Ji-Woo Kim
+  - Chungsoo Kim
+  - Kyoung-Hoon Kim
+  - Yujin Lee
+  - Dong Han Yu
+  - Jeongwon Yun
+  - Hyeran Baek
+  - Rae Woong Park
+  - Seng Chan You
+  publisher: Scientific Data
+  date: '2023-10-04'
+  link: https://doi.org/hbgfpc
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.IJANTIMICAG.2023.106966
+  title: 'Translation of Machine Learning-Based Prediction Algorithms to Personalised
+    Empiric Antibiotic Selection: A Population-Based Cohort Study'
+  authors:
+  - Chungsoo Kim
+  - Young Hwa Choi
+  - Jung Yoon Choi
+  - Hee Jung Choi
+  - Rae Woong Park
+  - Sandy Jeong Rhie
+  publisher: International Journal of Antimicrobial Agents
+  date: '2023-11-01'
+  link: https://doi.org/g7m7f9
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4258/HIR.2022.28.2.112
+  title: Applying the OMOP Common Data Model to Facilitate Benefit-Risk Assessments
+    of Medicinal Products Using Real-World Data from Singapore and South Korea
+  authors:
+  - Hui Xing Tan
+  - Desmond Chun Hwee Teo
+  - Dongyun Lee
+  - Chungsoo Kim
+  - Jing Wei Neo
+  - Cynthia Sung
+  - Haroun Chahed
+  - Pei San Ang
+  - Doreen Su Yin Tan
+  - Rae Woong Park
+  - Sreemanee Raaj Dorajoo
+  publisher: Healthcare Informatics Research
+  date: '2022-04-30'
+  link: https://doi.org/hbgfpd
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/S41467-022-29160-4
+  title: DLMM as a lossless one-shot algorithm for collaborative multi-site distributed
+    linear mixed models
+  authors:
+  - Chongliang Luo
+  - Md. Nazmul Islam
+  - Natalie E. Sheils
+  - John Buresh
+  - Jenna Reps
+  - Martijn J. Schuemie
+  - Patrick B. Ryan
+  - Mackenzie Edmondson
+  - Rui Duan
+  - Jiayi Tong
+  - Arielle Marks-Anglin
+  - Jiang Bian
+  - Zhaoyi Chen
+  - Talita Duarte-Salles
+  - "Sergio Fern\xE1ndez-Bertol\xEDn"
+  - Thomas Falconer
+  - Chungsoo Kim
+  - Rae Woong Park
+  - Stephen R. Pfohl
+  - Nigam H. Shah
+  - Andrew E. Williams
+  - Hua Xu
+  - Yujia Zhou
+  - Ebbing Lautenbach
+  - Jalpa A. Doshi
+  - Rachel M. Werner
+  - David A. Asch
+  - Yong Chen
+  publisher: Nature Communications
+  date: '2022-03-30'
+  link: https://doi.org/gqb7t7
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JAIP.2022.06.009
+  title: "Effectiveness of Maintenance and Reliever Therapy Using Inhaled Corticosteroid\u2013\
+    Formoterol in Asthmatics"
+  authors:
+  - Chungsoo Kim
+  - Youngsoo Lee
+  - Eunyoung Lee
+  - Seng Chan You
+  - Jae-Hyuk Jang
+  - Rae Woong Park
+  - Hae-Sim Park
+  publisher: 'The Journal of Allergy and Clinical Immunology: In Practice'
+  date: '2022-10-01'
+  link: https://doi.org/hbgfpf
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/S13034-022-00515-5
+  title: 'Long-term methylphenidate use for children and adolescents with attention
+    deficit hyperactivity disorder and risk for depression, conduct disorder, and
+    psychotic disorder: a nationwide longitudinal cohort study in South Korea'
+  authors:
+  - Jimyung Park
+  - Dong Yun Lee
+  - Chungsoo Kim
+  - Yo Han Lee
+  - Su-Jin Yang
+  - Sangha Lee
+  - Seong-Ju Kim
+  - Jeewon Lee
+  - Rae Woong Park
+  - Yunmi Shin
+  publisher: Child and Adolescent Psychiatry and Mental Health
+  date: '2022-10-11'
+  link: https://doi.org/hbgfpg
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3389/FPSYT.2022.844442
+  title: Psychosis Relapse Prediction Leveraging Electronic Health Records Data and
+    Natural Language Processing Enrichment Methods
+  authors:
+  - Dong Yun Lee
+  - Chungsoo Kim
+  - Seongwon Lee
+  - Sang Joon Son
+  - Sun-Mi Cho
+  - Yong Hyuk Cho
+  - Jaegyun Lim
+  - Rae Woong Park
+  publisher: Frontiers in Psychiatry
+  date: '2022-04-05'
+  link: https://doi.org/g9ft29
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1186/S12874-022-01505-Z
+  title: 'Seek COVER: using a disease proxy to rapidly develop and validate a personalized
+    risk calculator for COVID-19 outcomes in an international network'
+  authors:
+  - Ross D. Williams
+  - Aniek F. Markus
+  - Cynthia Yang
+  - Talita Duarte-Salles
+  - Scott L. DuVall
+  - Thomas Falconer
+  - Jitendra Jonnagaddala
+  - Chungsoo Kim
+  - Yeunsook Rho
+  - Andrew E. Williams
+  - Amanda Alberga Machado
+  - Min Ho An
+  - "Mar\xEDa Arag\xF3n"
+  - Carlos Areia
+  - Edward Burn
+  - Young Hwa Choi
+  - Iannis Drakos
+  - "Maria Tereza Fernandes Abrah\xE3o"
+  - "Sergio Fern\xE1ndez-Bertol\xEDn"
+  - George Hripcsak
+  - Benjamin Skov Kaas-Hansen
+  - Prasanna L. Kandukuri
+  - Jan A. Kors
+  - Kristin Kostka
+  - Siaw-Teng Liaw
+  - Kristine E. Lynch
+  - Gerardo Machnicki
+  - Michael E. Matheny
+  - Daniel Morales
+  - Fredrik Nyberg
+  - Rae Woong Park
+  - Albert Prats-Uribe
+  - Nicole Pratt
+  - Gowtham Rao
+  - Christian G. Reich
+  - Marcela Rivera
+  - Tom Seinen
+  - Azza Shoaibi
+  - Matthew E. Spotnitz
+  - Ewout W. Steyerberg
+  - Marc A. Suchard
+  - Seng Chan You
+  - Lin Zhang
+  - Lili Zhou
+  - Patrick B. Ryan
+  - Daniel Prieto-Alhambra
+  - Jenna M. Reps
+  - Peter R. Rijnbeek
+  publisher: BMC Medical Research Methodology
+  date: '2022-01-30'
+  link: https://doi.org/gpmfhk
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.CMPB.2021.106394
+  title: A standardized analytics pipeline for reliable and rapid development and
+    validation of prediction models using observational health data
+  authors:
+  - Sara Khalid
+  - Cynthia Yang
+  - Clair Blacketer
+  - Talita Duarte-Salles
+  - "Sergio Fern\xE1ndez-Bertol\xEDn"
+  - Chungsoo Kim
+  - Rae Woong Park
+  - Jimyung Park
+  - Martijn J. Schuemie
+  - Anthony G. Sena
+  - Marc A. Suchard
+  - Seng Chan You
+  - Peter R. Rijnbeek
+  - Jenna M. Reps
+  publisher: Computer Methods and Programs in Biomedicine
+  date: '2021-11-01'
+  link: https://doi.org/g8rw5k
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/PH14050445
+  title: Broad-Spectrum Antibiotic Regimen Affects Survival in Patients Receiving
+    Nivolumab for Non-Small Cell Lung Cancer
+  authors:
+  - Min Jung Geum
+  - Chungsoo Kim
+  - Ji Eun Kang
+  - Jae Hee Choi
+  - Jae Song Kim
+  - Eun Sun Son
+  - Sun Min Lim
+  - Sandy Jeong Rhie
+  publisher: Pharmaceuticals
+  date: '2021-05-08'
+  link: https://doi.org/hbgfph
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/21547
+  title: 'Implementation of the COVID-19 Vulnerability Index Across an International
+    Network of Health Care Data Sets: Collaborative External Validation Study'
+  authors:
+  - Jenna M Reps
+  - Chungsoo Kim
+  - Ross D Williams
+  - Aniek F Markus
+  - Cynthia Yang
+  - Talita Duarte-Salles
+  - Thomas Falconer
+  - Jitendra Jonnagaddala
+  - Andrew Williams
+  - "Sergio Fern\xE1ndez-Bertol\xEDn"
+  - Scott L DuVall
+  - Kristin Kostka
+  - Gowtham Rao
+  - Azza Shoaibi
+  - Anna Ostropolets
+  - Matthew E Spotnitz
+  - Lin Zhang
+  - Paula Casajust
+  - Ewout W Steyerberg
+  - Fredrik Nyberg
+  - Benjamin Skov Kaas-Hansen
+  - Young Hwa Choi
+  - Daniel Morales
+  - Siaw-Teng Liaw
+  - "Maria Tereza Fernandes Abrah\xE3o"
+  - Carlos Areia
+  - Michael E Matheny
+  - Kristine E Lynch
+  - "Mar\xEDa Arag\xF3n"
+  - Rae Woong Park
+  - George Hripcsak
+  - Christian G Reich
+  - Marc A Suchard
+  - Seng Chan You
+  - Patrick B Ryan
+  - Daniel Prieto-Alhambra
+  - Peter R Rijnbeek
+  publisher: JMIR Medical Informatics
+  date: '2021-04-05'
+  link: https://doi.org/gkgm2h
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.JAIP.2020.09.055
+  title: 'Longitudinal Outcomes of Severe Asthma: Real-World Evidence of Multidimensional
+    Analyses'
+  authors:
+  - Youngsoo Lee
+  - Youjin Park
+  - Chungsoo Kim
+  - Eunyoung Lee
+  - Hyun Young Lee
+  - Seong-Dae Woo
+  - Seng Chan You
+  - Rae Woong Park
+  - Hae-Sim Park
+  publisher: 'The Journal of Allergy and Clinical Immunology: In Practice'
+  date: '2021-03-01'
+  link: https://doi.org/hbgfpj
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000675846800076
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000675846800076
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/JAMIA/OCAA277
+  title: Machine-learning model to predict the cause of death using a stacking ensemble
+    method for observational data
+  authors:
+  - Chungsoo Kim
+  - Seng Chan You
+  - Jenna M. Reps
+  - Jae Youn Cheong
+  - Rae Woong Park
+  publisher: Journal of the American Medical Informatics Association
+  date: '2020-11-19'
+  link: https://doi.org/hbgfpk
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.2196/preprints.21547
+  title: 'Implementation of the COVID-19 Vulnerability Index Across an International
+    Network of Health Care Data Sets: Collaborative External Validation Study (Preprint)'
+  authors:
+  - Jenna M Reps
+  - Chungsoo Kim
+  - Ross D Williams
+  - Aniek F Markus
+  - Cynthia Yang
+  - Talita Duarte-Salles
+  - Thomas Falconer
+  - Jitendra Jonnagaddala
+  - Andrew Williams
+  - "Sergio Fern\xE1ndez-Bertol\xEDn"
+  - Scott L DuVall
+  - Kristin Kostka
+  - Gowtham Rao
+  - Azza Shoaibi
+  - Anna Ostropolets
+  - Matthew E Spotnitz
+  - Lin Zhang
+  - Paula Casajust
+  - Ewout W Steyerberg
+  - Fredrik Nyberg
+  - Benjamin Skov Kaas-Hansen
+  - Young Hwa Choi
+  - Daniel Morales
+  - Siaw-Teng Liaw
+  - "Maria Tereza Fernandes Abrah\xE3o"
+  - Carlos Areia
+  - Michael E Matheny
+  - Kristine E Lynch
+  - "Mar\xEDa Arag\xF3n"
+  - Rae Woong Park
+  - George Hripcsak
+  - Christian G Reich
+  - Marc A Suchard
+  - Seng Chan You
+  - Patrick B Ryan
+  - Daniel Prieto-Alhambra
+  - Peter R Rijnbeek
+  publisher: JMIR Publications Inc.
+  date: '2020-06-17'
+  link: https://doi.org/hbgfpm
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1001/jamaoncol.2025.4560
+  title: Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting
+    Comorbid Cancers
+  authors:
+  - Chungsoo Kim
+  - Michaela A. Dinan
+  - Timothy J. Robinson
+  - Joseph S. Ross
+  - Ania M. Jastreboff
+  - Harlan M. Krumholz
+  - Yuan Lu
+  publisher: JAMA Oncology
+  date: '2025-11-06'
+  link: https://doi.org/hbgfpq
+  image: ./images/citation_images/2025_JamaOncology.png
+  tags:
+  - big data
+  - obesity
   plugin: sources.py
   file: sources.yaml

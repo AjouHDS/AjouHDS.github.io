@@ -1,23 +1,58 @@
-- id: doi:10.1371/journal.pcbi.1007128
-  type: paper
-  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  date: 2020-12-4
-  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-  buttons:
-    - type: manubot
-      link: https://greenelab.github.io/meta-review/
-    - type: source
-      text: Manuscript Source
-      link: https://github.com/greenelab/meta-review
-    - type: website
-      link: http://manubot.org/
+- id: doi:10.64898/2025.12.08.25341603
+  title: Data Resource Profile Health Insurance Review and Assessment Service Korean Nationwide Claims OMOP-CDM (2015-2024) database, "HIRA K-OMOP"
+  date: '2025-12-11'
+  publisher: medRxiv (Under Review)
+  image: ./images/citation_images/2025_HIRAKCDM.png
   tags:
-    - open science
-    - collaboration
-  repo: greenelab/meta-review
+    - database
 
-- id: doi:10.1016/j.csbj.2020.05.017
-  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+- id: doi:10.1001/jama.2025.4735
+  type: paper
+  image: ./images/citation_images/2025_JAMA.png
+  date: '2025-06-24'
+  buttons:
+   - type: Repo
+     link: 
+  tags: 
+     - big data
+     - obesity
 
-- id: doi:10.7554/eLife.32822
-  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+- id: doi:10.1016/j.jacadv.2025.101912
+  title: Association Between Neighborhood-Level Social Vulnerability and Hypertension Outcomes
+  publisher: 'JACC: Advances'
+  date: '2025-08-01'
+  link: https://doi.org/hbgfm9
+  image: ./images/citation_images/2025_JaccAdvances.png
+  tags: 
+  - big data
+  - hypertension
+
+- id: doi:10.1101/2025.07.16.25331661
+  title: Survival Outcomes after Monitoring, Surgery, or Radiotherapy for Clinically Localized Prostate Cancer
+  publisher: medRxiv
+  date: '2025-07-18'
+  image: ./images/citation_images/2025_prostateCa.png
+
+- id: doi:10.1001/jamaoncol.2025.4560
+  title: Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting Comorbid Cancers
+  publisher: 'JAMA Oncology'
+  date: '2025-11-06'
+  image: ./images/citation_images/2025_JamaOncology.png
+  tags: 
+    - big data
+    - obesity
+
+- id: doi:10.1101/2025.10.06.25337411
+  title: Prescribing of GLP-1 Receptor Agonists for Adolescents with Obesity and Associated
+    Disparities
+  publisher: medRxiv (Accepted)
+  date: '2025-10-07'
+  image: ./images/citation_images/2025_JamaPeds.png
+  tags: 
+  - big data
+  - obesity
+
+- id: doi:10.3390/jcm14103349
+  publisher: Journal of Clinical Medicine
+  date: '2025-05-12'
+  image: ./images/citation_images/2025_JCM.png

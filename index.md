@@ -1,7 +1,7 @@
 ---
 ---
 
-# ChungsooKim's Website
+# Welcome to the Ajou Health Data Science Lab!
 
 An engaging 1-3 sentence description of your lab.
 
