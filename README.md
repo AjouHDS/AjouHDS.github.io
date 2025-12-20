@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # ChungsooKim's Website
+  # Ajou Health Data Science's Website
 
   Visit **[ajouhds.github.io](https://ajouhds.github.io)** 🚀
 
