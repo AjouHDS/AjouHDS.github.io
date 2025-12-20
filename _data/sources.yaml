@@ -4,34 +4,33 @@
   publisher: medRxiv (Under Review)
   image: ./images/citation_images/2025_HIRAKCDM.png
   tags:
-    - database
+    - infrastructure
+    - claims
 
 - id: doi:10.1001/jama.2025.4735
-  type: paper
   image: ./images/citation_images/2025_JAMA.png
   date: '2025-06-24'
   buttons:
    - type: Repo
      link: 
   tags: 
-     - big data
+     - epidemiology
      - obesity
 
 - id: doi:10.1016/j.jacadv.2025.101912
-  title: Association Between Neighborhood-Level Social Vulnerability and Hypertension Outcomes
-  publisher: 'JACC: Advances'
   date: '2025-08-01'
-  link: https://doi.org/hbgfm9
   image: ./images/citation_images/2025_JaccAdvances.png
   tags: 
-  - big data
-  - hypertension
+    - epidemiology
+    - hypertension
 
 - id: doi:10.1101/2025.07.16.25331661
-  title: Survival Outcomes after Monitoring, Surgery, or Radiotherapy for Clinically Localized Prostate Cancer
   publisher: medRxiv
   date: '2025-07-18'
   image: ./images/citation_images/2025_prostateCa.png
+  tags: 
+    - Epidemiology
+    - Oncology
 
 - id: doi:10.1001/jamaoncol.2025.4560
   title: Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting Comorbid Cancers
@@ -39,20 +38,31 @@
   date: '2025-11-06'
   image: ./images/citation_images/2025_JamaOncology.png
   tags: 
-    - big data
+    - Epidemiology
     - obesity
 
 - id: doi:10.1101/2025.10.06.25337411
-  title: Prescribing of GLP-1 Receptor Agonists for Adolescents with Obesity and Associated
-    Disparities
   publisher: medRxiv (Accepted)
   date: '2025-10-07'
   image: ./images/citation_images/2025_JamaPeds.png
   tags: 
-  - big data
+  - Epidemiology
   - obesity
 
 - id: doi:10.3390/jcm14103349
   publisher: Journal of Clinical Medicine
   date: '2025-05-12'
   image: ./images/citation_images/2025_JCM.png
+  tags: 
+  - Epidemiology
+  - Diabetes
+
+- id: doi:10.1101/2025.05.08.25327248
+  title: 'Comparative Safety of Second-Line Antihyperglycemic Agents in Older Adults
+    with Type 2 Diabetes: A Multinational Real-World Evidence From LEGEND-T2DM'
+  publisher: medRxiv (Under Review)
+  date: '2025-05-09'
+  image: ./images/citation_images/2025_NatureComms.png
+  tags: 
+  - Epidemiology
+  - Diabetes
