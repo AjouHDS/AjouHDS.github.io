@@ -5,6 +5,6 @@
 
   # ChungsooKim's Website
 
-  Visit **[chungsookim.github.io/AjouHDS.github.io](https://chungsookim.github.io/AjouHDS.github.io)** 🚀
+  Visit **[ajouhds.github.io](https://ajouhds.github.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
