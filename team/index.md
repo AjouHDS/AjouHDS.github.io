@@ -1,7 +1,7 @@
 ---
 title: Team
 nav:
-  order: 3
+  order: 1
   tooltip: About Ajou Health Data Science Lab team
 ---
 
@@ -24,7 +24,7 @@ We are actively recruiting new members! If you are interested, please send your 
 
 {% include figure.html image="images/ajou1.png" %}
 {% include figure.html image="images/ajou2.png" %}
-{% include figure.html image="images/ajou3.png" %}
+{% include figure.html image="images/ajou4.png" %}
 
 {% endcapture %}
 

@@ -3,7 +3,7 @@
 
 # Welcome to the Ajou Health Data Science Lab!
 
-An engaging 1-3 sentence description of your lab.
+We are striving to become a leading health data science laboratory that bridges healthcare data and actionable evidence to enhance patient outcomes and improve healthcare systems.
 
 {% include section.html %}
 
