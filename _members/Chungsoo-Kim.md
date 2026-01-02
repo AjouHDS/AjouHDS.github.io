@@ -1,6 +1,6 @@
 ---
 name: Chungsoo Kim
-image: images/chungsoo.png
+image: images/chungsoo2.png
 role: principal-investigator
 affiliation: Ajou University
 aliases:
