@@ -1,9 +1,9 @@
 # site properties and page defaults
 title: Ajou Health Data Science Lab
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+description: Ajou Health Data Science Lab leds by Dr. Chungsoo Kim
+header: images/background2.png
+footer: images/background2.png
 proofer: false
 
 # site social media and other links
