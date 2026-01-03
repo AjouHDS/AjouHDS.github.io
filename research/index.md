@@ -1,24 +1,33 @@
 ---
 title: Research
 nav:
-  order: 3
+  order: 2
   tooltip: Published works
 ---
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Research interests
+
+{% include figure.html image="images/research.png" %}
+
+1) Generating reliable evidence through large-scale multi-center epidemiological studies utilizing OMOP common data model
+
+2) Developing clinical prediction models, especially adopting cutting-edge algorithms (LLM, foundation model, etc)
+  
+3) Health data infrastructure (data standardization, harmonization, and curation) for reproducible medical research
 
 {% include section.html %}
 
-## Highlighted
+## Highlighted publications
 
 {% include citation.html lookup="Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for Obesity in the US" style="rich" %}
 
+{% include citation.html lookup="Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting" style="rich" %}
+
 {% include section.html %}
 
-## All
+## All publications
 
 {% include search-box.html %}
 
