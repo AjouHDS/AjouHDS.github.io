@@ -11,12 +11,17 @@ Introducing the team members of the Ajou Health Data Sciences Lab. We strive for
 
 {% include section.html %}
 
+## Current members
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %} 
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 
-We are actively recruiting new members! If you are interested, please send your CV to us via [email](ted9219@gmail.com)
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+{% include section.html %}
+
+## Alumni
+{% include list.html data="members" component="portrait" filter="role == 'alumni'" %} 
 
 {% include section.html %}
 

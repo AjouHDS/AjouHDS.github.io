@@ -1,8 +1,8 @@
 ---
 name: Chungsoo Kim
 image: images/chungsoo2.png
-role: principal-investigator
-affiliation: Ajou University
+role: pi
+affiliation: Assistant Professor
 aliases:
   - C Kim
   - Chungsoo Kim
