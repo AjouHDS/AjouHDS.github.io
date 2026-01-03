@@ -2,12 +2,16 @@
 title: Contact
 nav:
   order: 5
-  tooltip: Email, address, and location
+  tooltip: Open position and contact information
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-We are actively recruiting new members! If you are interested, please send your CV to us.
+We are actively recruiting new members! If you are interested, please send your CV and brief research statement to our [email](ted9219@gmail.com)
+
+**Open position(s)**
+
+- Research Instructor, PhD-level ( 연구강사, 박사학위 소지 (예정) 자 ) [Job description]
 
 {%
   include button.html
