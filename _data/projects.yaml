@@ -1,6 +1,39 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: GLP1RA safety in patients with or without diabetes/obesity
   group: featured
+  image: images/project_glp1ra.png
+  link: https://github.com/AjouHDS
+  description: A comparative effectiveness study on the safety of novel GLP-1 receptor agonists such as semaglutide and tirzepatide in diabetic and non-diabetic, obese patients.
+  tags:
+    - clinical
+    - ohdsi
+
+- title: Automated RWE pipeline
+  group: featured
+  image: images/project_agent.png
+  link: https://github.com/AjouHDS
+  description: Developing a pipeline to automate real-world evidence generation using agentic AI.
+  tags:
+    - informatics
+    - AI
+
+- title: GLP1RA safety in patients with or without diabetes/obesity
+  image: images/project_glp1ra.png
+  link: https://github.com/AjouHDS
+  description: A comparative effectiveness study on the safety of novel GLP-1 receptor agonists such as semaglutide and tirzepatide in diabetic and non-diabetic, obese patients.
+  tags:
+    - clinical
+    - ohdsi
+
+- title: Automated RWE pipeline
+  image: images/project_agent.png
+  link: https://github.com/AjouHDS
+  description: Developing a pipeline to automate real-world evidence generation using agentic AI.
+  tags:
+    - informatics
+    - AI
+
+- title: Project1
+  subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -8,17 +41,7 @@
   tags:
     - resource
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-
-- title: Cool Tutorial
+- title: Project2
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
@@ -28,7 +51,7 @@
     - resource
     - publication
 
-- title: Cool Web App
+- title: Project3
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
@@ -37,7 +60,7 @@
   tags:
     - software
 
-- title: Cool Web Server
+- title: Project4
   subtitle: a subtitle
   image: images/photo.jpg
   link: https://github.com/
