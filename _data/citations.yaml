@@ -19,7 +19,8 @@
   file: sources.yaml
   image: ./images/citation_images/2025_HIRAKCDM.png
   tags:
-  - database
+  - infrastructure
+  - claims
 - id: doi:10.1101/2025.10.06.25337411
   title: Prescribing of GLP-1 Receptor Agonists for Adolescents with Obesity and Associated
     Disparities
@@ -39,7 +40,7 @@
   file: sources.yaml
   image: ./images/citation_images/2025_JamaPeds.png
   tags:
-  - big data
+  - Epidemiology
   - obesity
 - id: doi:10.1016/j.jacadv.2025.101912
   title: Association Between Neighborhood-Level Social Vulnerability and Hypertension
@@ -67,7 +68,7 @@
   file: sources.yaml
   image: ./images/citation_images/2025_JaccAdvances.png
   tags:
-  - big data
+  - epidemiology
   - hypertension
 - id: doi:10.1101/2025.07.16.25331661
   title: Survival Outcomes after Monitoring, Surgery, or Radiotherapy for Clinically
@@ -86,6 +87,9 @@
   plugin: sources.py
   file: sources.yaml
   image: ./images/citation_images/2025_prostateCa.png
+  tags:
+  - Epidemiology
+  - Oncology
 - id: doi:10.1002/cpt.3614
   title: "Impact of Regulatory Post\u2010Market Safety Advisories on Prescribing Practices:\
     \ An Interrupted Time Series Analysis"
@@ -119,6 +123,9 @@
   plugin: sources.py
   file: sources.yaml
   image: ./images/citation_images/2025_JCM.png
+  tags:
+  - Epidemiology
+  - Diabetes
 - id: doi:10.1101/2025.05.08.25327248
   title: 'Comparative Safety of Second-Line Antihyperglycemic Agents in Older Adults
     with Type 2 Diabetes: A Multinational Real-World Evidence From LEGEND-T2DM'
@@ -157,12 +164,16 @@
   - Harlan M. Krumholz
   - Marc A. Suchard
   - Yuan Lu
-  publisher: Cold Spring Harbor Laboratory
+  publisher: medRxiv (Under Review)
   date: '2025-05-09'
   link: https://doi.org/hbgfnf
   orcid: 0000-0003-1802-1777
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: ./images/citation_images/2025_NatureComms.png
+  tags:
+  - Epidemiology
+  - Diabetes
 - id: doi:10.1001/jama.2025.4735
   title: Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for
     Obesity in the US
@@ -180,13 +191,12 @@
   orcid: 0000-0003-1802-1777
   plugin: sources.py
   file: sources.yaml
-  type: paper
   image: ./images/citation_images/2025_JAMA.png
   buttons:
   - type: Repo
     link: null
   tags:
-  - big data
+  - epidemiology
   - obesity
 - id: doi:10.1016/j.eclinm.2025.103096
   title: 'Risk of aortic aneurysm or dissection following use of fluoroquinolones:
@@ -1184,7 +1194,7 @@
   link: https://doi.org/hbgfpq
   image: ./images/citation_images/2025_JamaOncology.png
   tags:
-  - big data
+  - Epidemiology
   - obesity
   plugin: sources.py
   file: sources.yaml
