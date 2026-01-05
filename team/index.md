@@ -18,10 +18,23 @@ Introducing the team members of the Ajou Health Data Sciences Lab. We strive for
 
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
-{% include section.html %}
-
 ## Alumni
 {% include list.html data="members" component="portrait" filter="role == 'alumni'" %} 
+
+{% include section.html %}
+
+## Collaborators
+
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; row-gap: 10px; flex-wrap: wrap;">
+
+{% include figure.html image="images/ajou_hospital.png" link="https://hosp.ajoumc.or.kr/" height="100px" %}
+{% include figure.html image="images/ohdsi.png" link="https://www.ohdsi.org/" height="100px" %}
+{% include figure.html image="images/yale_med.png" link="https://medicine.yale.edu/" height="100px" %}
+{% include figure.html image="images/ynhh_core.png" link="https://medicine.yale.edu/core/" height="100px" %}
+{% include figure.html image="images/yonsei.png" link="https://www.yonsei.ac.kr/" height="100px" %}
+{% include figure.html image="images/bongdam.png" link="http://bdforestmind.com/" height="100px" %}
+
+</div>
 
 {% include section.html %}
 
