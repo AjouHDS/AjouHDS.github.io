@@ -1,17 +1,17 @@
 ---
-title: Contact
+title: Recruit/Contact
 nav:
   order: 5
   tooltip: Open position and contact information
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %} Open Position and Contact Information
 
-We are actively recruiting new members! If you are interested, please send your CV and brief research statement to our [email](ted9219@gmail.com)
+We are actively recruiting new members! If you are interested, please send your CV and brief research statement to our [email](ted9219@ajou.ac.kr)
 
 **Open position(s)**
 
-- Research Instructor, PhD-level ( 연구강사, 박사학위 소지 (예정) 자 ) [Job description]
+- MS/PhD/integreted PhD ( 전일제 대학원생 [석사/박사/석박사통합] ) [Job description](https://go.hibrain.io/s/0HeiAkC8OBhn6eE0b-odi)
 
 {%
   include button.html
@@ -22,8 +22,8 @@ We are actively recruiting new members! If you are interested, please send your 
 {%
   include button.html
   type="phone"
-  text="(031) 219-4471"
-  link="+82-31-219-4471"
+  text="(031) 219-4473"
+  link="+82-31-219-4473"
 %}
 {%
   include button.html
