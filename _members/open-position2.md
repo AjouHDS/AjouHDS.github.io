@@ -1,7 +1,7 @@
 ---
 name: Open position
 image: images/photo.jpg
-description: PhD Student
+description: MS/PhD Student
 role: phd
 links:
   email:

@@ -8,4 +8,3 @@ links:
   twitter: 
 ---
 
-Open position
