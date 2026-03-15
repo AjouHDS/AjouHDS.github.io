@@ -27,4 +27,5 @@ EXPOSE 35729
 
 # run jekyll and cite process
 COPY .docker/entrypoint.sh /var
+RUN sed -i 's/\r$//' /var/entrypoint.sh && chmod +x /var/entrypoint.sh
 CMD [ "/var/entrypoint.sh" ]

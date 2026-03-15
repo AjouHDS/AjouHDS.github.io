@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # print folder contents for debugging
 printf "\n\nContents:\n\n"
