@@ -9,7 +9,7 @@ nav:
 
 ## Research interests
 
-{% include figure.html image="images/research.png" %}
+{% include figure.html image="images/research2.png" %}
 
 1) Generating reliable evidence through large-scale multi-center epidemiological studies utilizing OMOP common data model
 
