@@ -2,22 +2,27 @@
 title: Recruit/Contact
 nav:
   order: 5
-  tooltip: Open position and contact information
+  tooltip: Open position & Contact
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %} Open Position and Contact Information
+# {% include icon.html icon="fa-regular fa-envelope" %} Open Position & Contact Information
 
-We are actively recruiting new members! If you are interested, please send your CV and brief research statement to our [email](ted9219@ajou.ac.kr)
+We are actively recruiting new members! 
+If you are interested, please send your CV and brief research statement to our [email](ted9219@ajou.ac.kr)
 
 **Open position(s)**
 
-- MS/PhD/integreted PhD ( 전일제 대학원생 [석사/박사/석박사통합] ) [Job description](https://go.hibrain.io/s/0HeiAkC8OBhn6eE0b-odi)
+- MS/PhD/integreted PhD (전일제 대학원생, 석사/박사/석박사통합 가능) [Job description](https://go.hibrain.io/s/0HeiAkC8OBhn6eE0b-odi)
+- Research Instructor (연구강사) : 박사학위 소지(예정) 자, NLP/LLM/AI agent 분야 우대
+
+
+**Contact**
 
 {%
   include button.html
   type="email"
-  text="ted9219@gmail.com"
-  link="ted9219@gmail.com"
+  text="ted9219@ajou.ac.kr"
+  link="ted9219@ajou.ac.kr"
 %}
 {%
   include button.html
@@ -25,14 +30,15 @@ We are actively recruiting new members! If you are interested, please send your 
   text="(031) 219-4473"
   link="+82-31-219-4473"
 %}
-{%
-  include button.html
-  type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://maps.app.goo.gl/qCzjSdrbnyUFPppL8"
-%}
 
 {% include section.html %}
+
+**Location**
+
+World cup-ro 164, Hong Jae Bd 5th floor (Innovative Medical R&D Center), Ajou University Medical Center
+Suwon-si, 16499, Gyeonggi-do, Republic of Korea 
+
+[Google Map](https://maps.app.goo.gl/qCzjSdrbnyUFPppL8)
 
 {% capture col1 %}
 
