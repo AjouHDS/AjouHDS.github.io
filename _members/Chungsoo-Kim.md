@@ -1,6 +1,6 @@
 ---
 name: Chungsoo Kim
-image: images/chungsoo3.jpg
+image: images/chungsoo4.jpg
 role: pi
 affiliation: Assistant Professor
 aliases:
