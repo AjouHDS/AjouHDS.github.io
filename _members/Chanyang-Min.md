@@ -1,7 +1,7 @@
 ---
 name: Chanyang Min
 image: images/min.png
-description: Postdoc
+description: Research Instructor
 role: postdoc
 links:
   github:
