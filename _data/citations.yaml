@@ -1,5 +1,49 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41467-026-71307-0
+  title: Real-world evidence for comparative safety of second-line antihyperglycemic
+    agents in older adults with type 2 diabetes
+  authors:
+  - Chungsoo Kim
+  - Fan Bu
+  - Clair Blacketer
+  - Anna Ostropolets
+  - Talita Duarte-Salles
+  - Benjamin Viernes
+  - Thomas Falconer
+  - Andrea Pistillo
+  - Jing Li
+  - Can Yin
+  - Mui Van Zandt
+  - Paul Nagy
+  - Akihiko Nishimura
+  - Evan Minty
+  - Seng Chan You
+  - Mitsuaki Sawano
+  - Shoko Sawano
+  - Ja Young Jeon
+  - Arya Aminorroaya
+  - Lovedeep S. Dhingra
+  - Aline F. Pedroso
+  - Phyllis Thangaraj
+  - David A. Dorr
+  - Nicole Pratt
+  - Kenneth K. C. Man
+  - Wallis C. Y. Lau
+  - Daniel R. Morales
+  - Rohan Khera
+  - Martijn J. Schuemie
+  - Patrick B. Ryan
+  - George Hripcsak
+  - Harlan M. Krumholz
+  - Marc A. Suchard
+  - Yuan Lu
+  publisher: Nature Communications
+  date: '2026-04-04'
+  link: https://doi.org/hbv4fj
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.02.23.26346890
   title: Comparative Cardiovascular Effectiveness of Glucagon-Like Peptide 1 Receptor
     Agonists and Sodium-Glucose Cotransporter-2 Inhibitors in Diabetes Mellitus
