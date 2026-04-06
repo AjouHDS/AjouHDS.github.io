@@ -12,6 +12,8 @@ links:
   orcid: 0000-0003-1802-1777
 ---
 
+Dr Chungsoo Kim is conducting research that leads to improved patient health outcomes through the convergence of medicine and data science/informatics.
+
 **Career**
 - Assistant Professor (2026)
 : Department of Biomedical Informatics, Ajou Univeristy School of Medicine
