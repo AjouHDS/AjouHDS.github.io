@@ -173,6 +173,18 @@ for index, source in enumerate(sources):
 
 log()
 
+log("Fetching journal logos for citations without images")
+
+try:
+    from fetch_logos import main as fetch_logos
+    fetch_logos(citations)
+except Exception as e:
+    log(e, level="WARNING")
+    warnings.append(f"Journal logo fetch failed: {e}")
+
+
+log()
+
 log("Saving updated citations")
 
 
