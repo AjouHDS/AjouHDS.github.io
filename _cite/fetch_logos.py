@@ -222,6 +222,8 @@ PUBLISHER_FETCHERS = {
 
     # AHA — journal-specific CDN logos
     "circulation":                  _aha_fetcher("circ"),
+    "stroke":                       _aha_fetcher("str"),
+    "hypertension":                 _aha_fetcher("hyp"),
 
 
     # JMIR: jmir.org returns the JMIR Publications corporate logo — skip all JMIR journals
