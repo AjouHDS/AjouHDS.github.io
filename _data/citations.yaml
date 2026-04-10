@@ -370,6 +370,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/stroke.png
 - id: doi:10.1111/JVH.70006
   title: "Baseline Alpha\u2010Fetoprotein Elevation and the Risk of Hepatocellular\
     \ Carcinoma in Chronic Hepatitis B: A Multicentre Cohort Study"
@@ -1005,6 +1006,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/hypertension.png
 - id: doi:10.3233/SHTI231233
   title: Prediction Models for Readmission Using Home Healthcare Notes and OMOP-CDM
   authors:
@@ -1067,6 +1069,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/hypertension.png
 - id: doi:10.1136/BMJRESP-2023-002127
   title: Real-world treatment trajectories of adults with newly diagnosed asthma or
     COPD
