@@ -44,6 +44,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/nature_communications.svg
 - id: doi:10.64898/2026.02.23.26346890
   title: Comparative Cardiovascular Effectiveness of Glucagon-Like Peptide 1 Receptor
     Agonists and Sodium-Glucose Cotransporter-2 Inhibitors in Diabetes Mellitus
@@ -110,8 +111,9 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.64898/2025.12.08.25341603
-  title: Data Resource Profile Health Insurance Review and Assessment Service Korean
-    Nationwide Claims OMOP-CDM (2015-2024) database, "HIRA K-OMOP"
+  title: "Data Resource Profile: Health Insurance Review and Assessment Service Korean\
+    \ Nationwide Claims OMOP-CDM (2015\u20132024) database,\n                  <i>\u201C\
+    HIRA K-OMOP\u201D</i>"
   authors:
   - Dong Han Yu
   - Sun Mi Lim
@@ -120,16 +122,12 @@
   - Seng Chan You
   - Rae Woong Park
   - Chungsoo Kim
-  publisher: medRxiv (Under Review)
+  publisher: openRxiv
   date: '2025-12-11'
   link: https://doi.org/hbgfm7
   orcid: 0000-0003-1802-1777
-  plugin: sources.py
-  file: sources.yaml
-  image: ./images/citation_images/2025_HIRAKCDM.png
-  tags:
-  - infrastructure
-  - claims
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.10.06.25337411
   title: Prescribing of GLP-1 Receptor Agonists for Adolescents with Obesity and Associated
     Disparities
@@ -141,16 +139,12 @@
   - Hua Xu
   - Harlan M. Krumholz
   - Yuan Lu
-  publisher: medRxiv (Accepted)
+  publisher: openRxiv
   date: '2025-10-07'
   link: https://doi.org/hbgfm8
   orcid: 0000-0003-1802-1777
-  plugin: sources.py
-  file: sources.yaml
-  image: ./images/citation_images/2025_JamaPeds.png
-  tags:
-  - Epidemiology
-  - obesity
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.jacadv.2025.101912
   title: Association Between Neighborhood-Level Social Vulnerability and Hypertension
     Outcomes
@@ -173,12 +167,8 @@
   date: '2025-08-01'
   link: https://doi.org/hbgfm9
   orcid: 0000-0003-1802-1777
-  plugin: sources.py
-  file: sources.yaml
-  image: ./images/citation_images/2025_JaccAdvances.png
-  tags:
-  - epidemiology
-  - hypertension
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.07.16.25331661
   title: Survival Outcomes after Monitoring, Surgery, or Radiotherapy for Clinically
     Localized Prostate Cancer
@@ -189,16 +179,12 @@
   - Kyu-Ho Yi
   - Rae Woong Park
   - Minji Jung
-  publisher: medRxiv
+  publisher: openRxiv
   date: '2025-07-18'
   link: https://doi.org/hbgfnb
   orcid: 0000-0003-1802-1777
-  plugin: sources.py
-  file: sources.yaml
-  image: ./images/citation_images/2025_prostateCa.png
-  tags:
-  - Epidemiology
-  - Oncology
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/cpt.3614
   title: "Impact of Regulatory Post\u2010Market Safety Advisories on Prescribing Practices:\
     \ An Interrupted Time Series Analysis"
@@ -229,12 +215,8 @@
   date: '2025-05-12'
   link: https://doi.org/hbgfnd
   orcid: 0000-0003-1802-1777
-  plugin: sources.py
-  file: sources.yaml
-  image: ./images/citation_images/2025_JCM.png
-  tags:
-  - Epidemiology
-  - Diabetes
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.05.08.25327248
   title: 'Comparative Safety of Second-Line Antihyperglycemic Agents in Older Adults
     with Type 2 Diabetes: A Multinational Real-World Evidence From LEGEND-T2DM'
@@ -273,16 +255,12 @@
   - Harlan M. Krumholz
   - Marc A. Suchard
   - Yuan Lu
-  publisher: medRxiv (Under Review)
+  publisher: openRxiv
   date: '2025-05-09'
   link: https://doi.org/hbgfnf
   orcid: 0000-0003-1802-1777
-  plugin: sources.py
-  file: sources.yaml
-  image: ./images/citation_images/2025_NatureComms.png
-  tags:
-  - Epidemiology
-  - Diabetes
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.eclinm.2025.103096
   title: 'Risk of aortic aneurysm or dissection following use of fluoroquinolones:
     a retrospective multinational network cohort study'
@@ -353,6 +331,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/circulation.png
 - id: doi:10.1016/J.JAIP.2024.10.016
   title: "Adverse Impacts of Corticosteroid Treatment on Osteoporosis/Osteopenia in\
     \ Adult Asthmatics: A\_Retrospective ICARUS Cohort Study"
@@ -586,6 +565,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/circulation.png
 - id: doi:10.3349/ymj.2024.0320
   title: Real-World Effectiveness of Omalizumab Treatment in Adult Asthma Patients
   authors:
@@ -632,6 +612,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/circulation.png
 - id: wosuid:WOS:001463244200039
   title: Web of Science
   authors: []
@@ -870,6 +851,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/healthcare_informatics_research.png
 - id: wosuid:WOS:001407925903259
   title: Web of Science
   authors: []
@@ -1300,6 +1282,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/healthcare_informatics_research.png
 - id: doi:10.1111/CEA.14362
   title: "Long\u2010term clinical outcomes of aspirin\u2010exacerbated respiratory\
     \ disease: Real\u2010world data from an adult asthma cohort"
@@ -1454,6 +1437,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/scientific_data.svg
 - id: doi:10.1016/J.IJANTIMICAG.2023.106966
   title: 'Translation of Machine Learning-Based Prediction Algorithms to Personalised
     Empiric Antibiotic Selection: A Population-Based Cohort Study'
@@ -1491,6 +1475,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/healthcare_informatics_research.png
 - id: doi:10.1038/S41467-022-29160-4
   title: DLMM as a lossless one-shot algorithm for collaborative multi-site distributed
     linear mixed models
@@ -1529,6 +1514,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/nature_communications.svg
 - id: doi:10.1016/J.JAIP.2022.06.009
   title: "Effectiveness of Maintenance and Reliever Therapy Using Inhaled Corticosteroid\u2013\
     Formoterol in Asthmatics"
@@ -1974,46 +1960,3 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1001/jama.2025.4735
-  title: Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for
-    Obesity in the US
-  authors:
-  - Chungsoo Kim
-  - Joseph S. Ross
-  - Ania M. Jastreboff
-  - Daniella Meeker
-  - Harry Freedman
-  - Harlan M. Krumholz
-  - Yuan Lu
-  publisher: JAMA
-  date: '2025-06-24'
-  link: https://doi.org/hbgfng
-  image: ./images/citation_images/2025_JAMA.png
-  buttons:
-  - type: Repo
-    link: null
-  tags:
-  - epidemiology
-  - obesity
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1001/jamaoncol.2025.4560
-  title: Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting
-    Comorbid Cancers
-  authors:
-  - Chungsoo Kim
-  - Michaela A. Dinan
-  - Timothy J. Robinson
-  - Joseph S. Ross
-  - Ania M. Jastreboff
-  - Harlan M. Krumholz
-  - Yuan Lu
-  publisher: JAMA Oncology
-  date: '2025-11-06'
-  link: https://doi.org/hbgfpq
-  image: ./images/citation_images/2025_JamaOncology.png
-  tags:
-  - Epidemiology
-  - obesity
-  plugin: sources.py
-  file: sources.yaml
