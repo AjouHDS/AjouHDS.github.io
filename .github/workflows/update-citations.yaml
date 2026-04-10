@@ -75,6 +75,7 @@ jobs:
         with:
           files: |
             _data/citations.yaml
+            images/journals/**
 
       - name: Commit updated citations to branch
         if: |
@@ -83,6 +84,7 @@ jobs:
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          file_pattern: "_data/citations.yaml images/journals/**"
           commit_message: "Update citations"
 
       - name: Open pull request with updated citations
@@ -94,6 +96,9 @@ jobs:
         with:
           branch: citation-update
           title: Periodic citation update
+          add-paths: |
+            _data/citations.yaml
+            images/journals/**
           body: |
             To see a live preview of this PR, close (don't merge) and reopen it.
 
