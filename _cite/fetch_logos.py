@@ -77,6 +77,7 @@ GENERIC_PUBLISHER_DOMAINS = {
     "mdpi.com",
     "iospress.com", "iospress.nl",
     "frontiersin.org",
+    "jmir.org",              # All JMIR journals share the same platform
 }
 
 
@@ -184,6 +185,50 @@ def fetch_logo_from_journal_page(page_url):
 
     except Exception as e:
         log(f"Journal page scrape failed ({page_url[:60]}): {e}", indent=2, level="INFO")
+    return None, None
+
+
+def _is_generic_publisher_domain(netloc):
+    """Return True if netloc or any parent domain is in GENERIC_PUBLISHER_DOMAINS."""
+    netloc = netloc.replace("www.", "").lower()
+    if netloc in GENERIC_PUBLISHER_DOMAINS:
+        return True
+    parts = netloc.split(".")
+    for i in range(1, len(parts)):
+        if ".".join(parts[i:]) in GENERIC_PUBLISHER_DOMAINS:
+            return True
+    return False
+
+
+def fetch_favicon_for_domain(domain):
+    """
+    Fetch a high-resolution favicon for a domain.
+    Uses Google's favicon service (sz=256) first, then falls back to /favicon.ico.
+    Returns (bytes, ext) or (None, None).
+    Google returns a small grey default (~200-400 bytes) for unknown domains;
+    real favicons at 256px are typically > 1 KB.
+    """
+    clean = domain.replace("www.", "", 1)
+    google_url = f"https://www.google.com/s2/favicons?domain={clean}&sz=256"
+    try:
+        r = _session().get(google_url, timeout=10)
+        if r.status_code == 200 and len(r.content) > 1000:
+            ct = r.headers.get("Content-Type", "")
+            if "image" in ct:
+                ext = ".png" if "png" in ct else ".ico"
+                return r.content, ext
+    except Exception as e:
+        log(f"Google favicon fetch failed ({domain}): {e}", indent=2, level="INFO")
+
+    # Direct /favicon.ico fallback
+    try:
+        favicon_url = f"https://{domain}/favicon.ico"
+        r = _session().get(favicon_url, timeout=8)
+        if r.status_code == 200 and len(r.content) > 500:
+            return r.content, ".ico"
+    except Exception as e:
+        log(f"Direct favicon fetch failed ({domain}): {e}", indent=2, level="INFO")
+
     return None, None
 
 
@@ -347,32 +392,37 @@ def main(citations):
 
         publisher_key = html.unescape(publisher).lower().strip()
         data, ext = None, None
+        homepage = None
 
-        # Skip known bad scrapers immediately
-        if publisher_key in KNOWN_BAD_SCRAPERS:
-            log(f"Skipping (no journal-specific logo available)", indent=2, level="INFO")
-            publisher_cache[publisher] = None
-            continue
+        # KNOWN_BAD_SCRAPERS: skip logo scraping (returns corporate/unusable logo),
+        # but still try favicon as a last resort below.
+        skip_logo_scraping = publisher_key in KNOWN_BAD_SCRAPERS
 
-        # 1. Try hardcoded journal-specific fetcher
-        fetcher = PUBLISHER_FETCHERS.get(publisher_key)
-        if fetcher:
-            data, ext = fetcher()
+        if not skip_logo_scraping:
+            # 1. Try hardcoded journal-specific fetcher
+            fetcher = PUBLISHER_FETCHERS.get(publisher_key)
+            if fetcher:
+                data, ext = fetcher()
 
-        # 2. Try scraping the specific journal homepage from OpenAlex
-        if not data:
-            homepage = get_journal_homepage(publisher)
-            if homepage:
-                domain = urlparse(homepage).netloc.replace("www.", "")
-                if domain not in GENERIC_PUBLISHER_DOMAINS:
-                    # Journal has its own dedicated domain — scrape it
+            # 2. Try scraping the specific journal homepage from OpenAlex
+            if not data:
+                homepage = get_journal_homepage(publisher)
+                if homepage:
                     log(f"Scraping journal page: {homepage[:60]}", indent=2, level="INFO")
                     data, ext = fetch_logo_from_journal_page(homepage)
+
+        # 3. Favicon fallback — only for journals with their own dedicated domain
+        #    (shared publisher platforms would give every journal the same favicon)
+        if not data:
+            if homepage is None:
+                homepage = get_journal_homepage(publisher)
+            if homepage:
+                domain = urlparse(homepage).netloc.replace("www.", "")
+                if not _is_generic_publisher_domain(domain):
+                    log(f"Trying favicon for: {domain}", indent=2, level="INFO")
+                    data, ext = fetch_favicon_for_domain(domain)
                 else:
-                    # Journal is on a shared publisher platform
-                    # Try the specific journal sub-page (not the publisher root)
-                    log(f"Trying publisher-hosted page: {homepage[:60]}", indent=2, level="INFO")
-                    data, ext = fetch_logo_from_journal_page(homepage)
+                    log(f"Skipping favicon (shared publisher platform): {domain}", indent=2, level="INFO")
 
         if data and ext:
             dest = LOGOS_DIR / f"{base_name}{ext}"
@@ -383,7 +433,7 @@ def main(citations):
             fetched += 1
             log(f"Saved: {rel}", indent=2, level="INFO")
         else:
-            log(f"No official logo found for '{publisher}'", indent=2, level="INFO")
+            log(f"No logo or favicon found for '{publisher}'", indent=2, level="INFO")
             publisher_cache[publisher] = None
 
     log(f"Journal logos: {fetched} logo(s) fetched", level="SUCCESS")
