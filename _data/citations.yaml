@@ -317,6 +317,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/journal_of_hypertension.png
 - id: doi:10.1161/CIRC.152.SUPPL_3.4367801
   title: 'Abstract 4367801: Tirzepatide Achieves Greater Weight and Blood Pressure
     Reduction Than Semaglutide in Routine Clinical Practice'
@@ -583,6 +584,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/yonsei_medical_journal.ico
 - id: doi:10.20944/PREPRINTS202503.2260.V1
   title: 'Renal and Safety Outcomes of SGLT2 Inhibitors in Patients with Type 2 Diabetes:
     A Nationwide Observational Cohort Study'
@@ -810,6 +812,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/arxiv.png
 - id: doi:10.1093/IJE/DYAE062
   title: 'Data Resource Profile: Health Insurance Review and Assessment Service Covid-19
     Observational Medical Outcomes Partnership (HIRA Covid-19 OMOP) database in South
@@ -1375,6 +1378,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/journal_of_the_american_medical_informatics_association.png
 - id: doi:10.1017/S0033291723001022
   title: "Safety Outcomes of Selective Serotonin Reuptake Inhibitors in Adolescent\
     \ Attention-Deficit/Hyperactivity Disorder with Comorbid Depression: The ASSURE\
@@ -1788,6 +1792,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/journal_of_the_american_medical_informatics_association.png
 - id: doi:10.2196/preprints.21547
   title: 'Implementation of the COVID-19 Vulnerability Index Across an International
     Network of Health Care Data Sets: Collaborative External Validation Study (Preprint)'
