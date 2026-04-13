@@ -93,7 +93,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
-  image: images/journals/jama_pediatrics.jpg
+  image: images/journals/jama_pediatrics.png
 - id: doi:10.1001/JAMAONCOL.2025.4560
   title: Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting
     Comorbid Cancers
@@ -111,7 +111,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
-  image: images/journals/jama_oncology.jpg
+  image: images/journals/jama_oncology.png
 - id: doi:10.64898/2025.12.08.25341603
   title: "Data Resource Profile: Health Insurance Review and Assessment Service Korean\
     \ Nationwide Claims OMOP-CDM (2015\u20132024) database,\n                  <i>\u201C\
@@ -646,7 +646,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
-  image: images/journals/jama.jpg
+  image: images/journals/jama.png
 - id: doi:10.1016/J.JACADV.2024.101428
   title: Using Electronic Health Records to Evaluate Treatment Gaps and Disparities
     in Severe Hypertension
