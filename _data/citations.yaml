@@ -93,6 +93,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama_pediatrics.jpg
 - id: doi:10.1001/JAMAONCOL.2025.4560
   title: Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting
     Comorbid Cancers
@@ -110,6 +111,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama_oncology.jpg
 - id: doi:10.64898/2025.12.08.25341603
   title: "Data Resource Profile: Health Insurance Review and Assessment Service Korean\
     \ Nationwide Claims OMOP-CDM (2015\u20132024) database,\n                  <i>\u201C\
@@ -409,6 +411,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama_network_open.png
 - id: doi:10.1016/j.anai.2025.12.002
   title: Clustering of patients with severe asthma based on long-term percentage of
     forced expiratory volume in 1 second (FEV1) changes
@@ -497,6 +500,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama_network_open.png
 - id: doi:10.1136/BMJHCI-2024-101227
   title: Finding a constrained number of predictor phenotypes for multiple outcome
     prediction
@@ -642,6 +646,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama.jpg
 - id: doi:10.1016/J.JACADV.2024.101428
   title: Using Electronic Health Records to Evaluate Treatment Gaps and Disparities
     in Severe Hypertension
@@ -751,6 +756,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama_network_open.png
 - id: doi:10.1093/JBMR/ZJAE070
   title: Comparative effectiveness and safety outcomes between denosumab and bisphosphonate
     in South Korea
@@ -1263,6 +1269,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jama_network_open.png
 - id: doi:10.4258/HIR.2023.29.3.246
   title: 'Development and Verification of Time-Series Deep Learning for Drug-Induced
     Liver Injury Detection in Patients Taking Angiotensin II Receptor Blockers: A
