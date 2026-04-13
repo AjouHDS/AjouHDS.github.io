@@ -76,6 +76,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1001/JAMAPEDIATRICS.2025.5708
   title: GLP-1 Receptor Agonist Prescriptions for Adolescents With Obesity and Associated
     Disparities
@@ -130,6 +131,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1101/2025.10.06.25337411
   title: Prescribing of GLP-1 Receptor Agonists for Adolescents with Obesity and Associated
     Disparities
@@ -147,6 +149,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1016/j.jacadv.2025.101912
   title: Association Between Neighborhood-Level Social Vulnerability and Hypertension
     Outcomes
@@ -187,6 +190,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1002/cpt.3614
   title: "Impact of Regulatory Post\u2010Market Safety Advisories on Prescribing Practices:\
     \ An Interrupted Time Series Analysis"
@@ -263,6 +267,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1016/j.eclinm.2025.103096
   title: 'Risk of aortic aneurysm or dissection following use of fluoroquinolones:
     a retrospective multinational network cohort study'
@@ -1174,6 +1179,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.2196/47693
   title: 'Time Series AI Model for Acute Kidney Injury Detection Based on a Multicenter
     Distributed Research Network: Development and Verification Study'
@@ -1691,6 +1697,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.3390/PH14050445
   title: Broad-Spectrum Antibiotic Regimen Affects Survival in Patients Receiving
     Nivolumab for Non-Small Cell Lung Cancer
@@ -1894,6 +1901,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1016/j.jagp.2020.09.016
   title: 'Risk of Mortality in Elderly Coronavirus Disease 2019 Patients With Mental
     Health Disorders: A Nationwide Retrospective Study in South Korea'
@@ -1975,3 +1983,4 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/openrxiv.png
