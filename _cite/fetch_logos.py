@@ -270,6 +270,13 @@ PUBLISHER_FETCHERS = {
     "stroke":                       _aha_fetcher("str"),
     "hypertension":                 _aha_fetcher("hyp"),
 
+    # JAMA family — journal-specific cover/favicon images from JAMA CDN
+    # Cover images (print nameplate) for journals that have them
+    "jama":                         _direct_url_fetcher("https://cdn.jamanetwork.com/UI/app/img/covers/jama.jpg", ".jpg"),
+    "jama pediatrics":              _direct_url_fetcher("https://cdn.jamanetwork.com/UI/app/img/covers/peds.jpg", ".jpg"),
+    "jama oncology":                _direct_url_fetcher("https://cdn.jamanetwork.com/UI/app/img/covers/oncol.jpg", ".jpg"),
+    # JAMA Network Open is online-only (no print cover) — use journal-specific 192px favicon
+    "jama network open":            _direct_url_fetcher("https://cdn.jamanetwork.com/UI/app/img/favicons/jamanetworkopen/favicon-192x192.png", ".png"),
 
     # JMIR: jmir.org returns the JMIR Publications corporate logo — skip all JMIR journals
 
