@@ -21,9 +21,10 @@ nav:
 
 ## Highlighted publications
 
+{% include citation.html lookup="Real-world evidence for comparative safety of second-line antihyperglycemic agents in older adults with type 2 diabetes" style="rich" %}
+
 {% include citation.html lookup="Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for Obesity in the US" style="rich" %}
 
-{% include citation.html lookup="Semaglutide and Tirzepatide Prescribing for Obesity in Patients With Preexisting" style="rich" %}
 
 {% include section.html %}
 
