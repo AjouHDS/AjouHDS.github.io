@@ -258,6 +258,16 @@ def _direct_url_fetcher(url, ext):
         return None, None
     return _fetch
 
+def _alias_fetcher(existing_publisher):
+    """Reuse the already-saved logo for another publisher name (e.g. rebranded journal)."""
+    def _fetch():
+        base = sanitize_filename(existing_publisher)
+        existing = list(LOGOS_DIR.glob(f"{base}.*"))
+        if existing:
+            return existing[0].read_bytes(), existing[0].suffix
+        return None, None
+    return _fetch
+
 
 # Maps lowercased, HTML-unescaped publisher name → fetcher lambda
 PUBLISHER_FETCHERS = {
@@ -277,6 +287,9 @@ PUBLISHER_FETCHERS = {
     "jama oncology":                _direct_url_fetcher("https://cdn.jamanetwork.com/UI/app/img/favicons/oncology/favicon-192x192.png", ".png"),
     "jama network open":            _direct_url_fetcher("https://cdn.jamanetwork.com/UI/app/img/favicons/jamanetworkopen/favicon-192x192.png", ".png"),
 
+    # OpenRxiv is the rebranded medRxiv consortium — reuse the medrxiv logo
+    "openrxiv":                     _alias_fetcher("medRxiv"),
+
     # JMIR: jmir.org returns the JMIR Publications corporate logo — skip all JMIR journals
 
     # arXiv SVG is white-on-transparent — not usable; leave blank
@@ -294,7 +307,6 @@ KNOWN_BAD_SCRAPERS = {
     "medrxiv",
     "medrxiv (under review)",
     "medrxiv (accepted)",
-    "openrxiv",
     "elsevier bv",
     "mdpi ag",
     "springer science and business media llc",
