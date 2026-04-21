@@ -1,5 +1,39 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.64898/2026.04.10.26350252
+  title: 'Sex Differences in Comparative Effectiveness and Safety of Second-line Antidiabetic
+    Agents: Real-world Evidence from Large-scale Multinational Study'
+  authors:
+  - Xiyu Ding
+  - Vidhu Vadini
+  - Chungsoo Kim
+  - Fan Bu
+  - Hsin Yi Chen
+  - Yi Chai
+  - Talita Duarte-Salles
+  - Jason C. Hsu
+  - Rohan Khera
+  - Wallis C.Y. Lau
+  - Kenneth K.C. Man
+  - Paul Nagy
+  - Anna Ostropolets
+  - Andrea Pistillo
+  - Nicole Pratt
+  - Elena Roel
+  - Sarah Seager
+  - Mui Van Zandt
+  - Lu Yuan
+  - George Hripcsak
+  - Nestoras Mathioudakis
+  - Marc A Suchard
+  - Akihiko Nishimura
+  publisher: openRxiv
+  date: '2026-04-12'
+  link: https://doi.org/hbxp4t
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+  image: images/journals/openrxiv.png
 - id: doi:10.1038/s41467-026-71307-0
   title: Real-world evidence for comparative safety of second-line antihyperglycemic
     agents in older adults with type 2 diabetes
@@ -45,6 +79,37 @@
   plugin: orcid.py
   file: orcid.yaml
   image: images/journals/nature_communications.svg
+- id: doi:10.1016/j.jacc.2026.02.5123
+  title: Comparative Cardiovascular Effectiveness of Glucagon-Like Peptide 1 Receptor
+    Agonists and Sodium-Glucose Cotransporter 2 Inhibitors in Diabetes Mellitus
+  authors:
+  - Fan Bu
+  - Ruopeng Wu
+  - Anna Ostropolets
+  - Arya Aminorroaya
+  - Hsin Yi Chen
+  - Yi Chai
+  - Lovedeep Singh Dhingra
+  - Thomas Falconer
+  - Jason C. Hsu
+  - Chungsoo Kim
+  - Wallis C.Y. Lau
+  - Kenneth K.C. Man
+  - Evan Minty
+  - Daniel R. Morales
+  - Akihiko Nishimura
+  - Phyllis Thangraraj
+  - Mui Van Zandt
+  - Can Yin
+  - Rohan Khera
+  - George Hripcsak
+  - Marc A. Suchard
+  publisher: JACC
+  date: '2026-04-01'
+  link: https://doi.org/hbxp4v
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.02.23.26346890
   title: Comparative Cardiovascular Effectiveness of Glucagon-Like Peptide 1 Receptor
     Agonists and Sodium-Glucose Cotransporter-2 Inhibitors in Diabetes Mellitus
