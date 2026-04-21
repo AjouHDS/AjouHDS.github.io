@@ -16,7 +16,7 @@ Introducing the team members of the Ajou Health Data Sciences Lab. We strive for
 
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 
-{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'ms'" %}
 
 ## Alumni
 {% include list.html data="members" component="portrait" filter="role == 'alumni'" %} 
