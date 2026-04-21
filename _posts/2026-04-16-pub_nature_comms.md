@@ -4,6 +4,7 @@ author: chungsoo-kim
 tags:
   - notice
   - lab
+image: images/NatureCommsNews.png
 ---
 
 A Nature Communications paper published by Prof. Chungsoo Kim of the Ajou Health Data Science Lab regarding comparative safety among second-line antihyperglycemic medications in older adults with diabetes has been featured in the media. Below is the original article.

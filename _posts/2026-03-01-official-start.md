@@ -4,6 +4,7 @@ author: chungsoo-kim
 tags:
   - notice
   - lab
+image: images/post2.png
 ---
 
 We are pleased to announce that as of March 1, 2026, Dr. Chungsoo Kim have officially joined Ajou University as a new faculty member.

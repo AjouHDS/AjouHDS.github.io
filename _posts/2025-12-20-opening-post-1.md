@@ -4,6 +4,7 @@ author: chungsoo-kim
 tags:
   - notice
   - lab
+image: images/ajou_hospital.png
 ---
 
 🎄 A joyful update just in time for Christmas! 🎄

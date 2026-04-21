@@ -4,6 +4,7 @@ author: chungsoo-kim
 tags:
   - notice
   - lab
+image: images/min.png
 ---
 
 We are thrilled to announce that Dr. Chanyang Min has joined the Ajou Health Data Science Lab as a Research Instructor, effective April 1, 2026.

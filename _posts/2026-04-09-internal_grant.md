@@ -4,6 +4,7 @@ author: chungsoo-kim
 tags:
   - notice
   - lab
+image: images/project_agent.png
 ---
 
 We are pleased to announce that the Ajou Health Data Science Lab (PI Prof. Chungsoo Kim) has been selected for the New Faculty Research Grant, hosted by the Ajou University School of Medicine (AUSOM).
