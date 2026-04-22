@@ -14,7 +14,7 @@
 .post-excerpt-image {
   width: 200px;
   flex-shrink: 0;
-  align-self: flex-start;
+  align-self: center;
 }
 
 .post-excerpt-image img {
