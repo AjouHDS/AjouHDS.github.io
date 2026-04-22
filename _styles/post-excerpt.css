@@ -13,14 +13,22 @@
 
 .post-excerpt-image {
   width: 200px;
+  height: 200px;
   flex-shrink: 0;
   align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .post-excerpt-image img {
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .post-excerpt-text {
