@@ -12,17 +12,15 @@
 }
 
 .post-excerpt-image {
-  position: relative;
   width: 200px;
   flex-shrink: 0;
+  align-self: flex-start;
 }
 
 .post-excerpt-image img {
-  position: absolute;
-  inset: 0;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  display: block;
 }
 
 .post-excerpt-text {
@@ -55,8 +53,7 @@
     flex-direction: column;
   }
   .post-excerpt-image {
-    width: unset;
-    height: 200px;
+    width: 100%;
   }
 }
 
