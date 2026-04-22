@@ -2,7 +2,7 @@
 name: Alumni
 image: images/photo.jpg
 description: PhD
-role: alumni
+role: alumnii
 links:
   email:
   twitter: 
