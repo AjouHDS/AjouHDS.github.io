@@ -1,6 +1,6 @@
 ---
 name: Wooyeol Lee
-image: images/wylee.jpg
+image: images/wylee.png
 description: Intern
 role: ms
 ---
