@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.jacc.2026.03.088
+  title: Single-Pill Combination Therapy for Hypertension
+  authors:
+  - Kyungseon Choi
+  - Chungsoo Kim
+  - Erica S. Spatz
+  - Harlan M. Krumholz
+  - Yuan Lu
+  publisher: JACC
+  date: '2026-05-01'
+  link: https://doi.org/hb2tmf
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.64898/2026.04.10.26350252
   title: 'Sex Differences in Comparative Effectiveness and Safety of Second-line Antidiabetic
     Agents: Real-world Evidence from Large-scale Multinational Study'
