@@ -25,7 +25,6 @@ nav:
 
 {% include citation.html lookup="Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for Obesity in the US" style="rich" %}
 
-
 {% include section.html %}
 
 ## All publications
