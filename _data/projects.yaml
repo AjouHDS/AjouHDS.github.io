@@ -16,7 +16,7 @@
 
 - title: Automated Medical Image Analysis
   group: featured
-  image: images/photo.jpg
+  image: images/medical_image_analysis.png
   description: We develop medical image analysis models tailored for clinical settings and conduct research to enhance their practical utility (e.g., integration with visual language models).
   tags:
     - clinical
