@@ -34,13 +34,19 @@
 - title: Heterogeneous effects of psychiatric drugs based on variability in physical indicators
   image: images/photo.jpg
   description: This study investigates whether the effects of psychiatric medications varies depending on the variability of physical indicators, such as physical activity and body weight.
-    tags:
+  tags:
     - clinical
     - epidemiology
 
 - title: Real-world evidence of allergen immunotherapy in patients with asthma
   image: images/photo.jpg
   description: This study evaluates the real-world effectiveness and safety of allergen immunotherapy in patients with asthma.
+  tags:
+    - clinical
+    - epidemiology
+
+- title: Development of guidelines for drug evaluation and clinical trials utilizing RWD
+  description: We develop guidelines for the use of RWD in drug evaluation and clinical trials, funded by a Korean government grant.
   tags:
     - clinical
     - epidemiology
