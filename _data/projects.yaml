@@ -1,70 +1,46 @@
 - title: GLP1RA safety in patients with or without diabetes/obesity
   group: featured
   image: images/project_glp1ra.png
-  link: https://github.com/AjouHDS
   description: A comparative effectiveness study on the safety of novel GLP-1 receptor agonists such as semaglutide and tirzepatide in diabetic and non-diabetic, obese patients.
   tags:
     - clinical
-    - ohdsi
+    - epidemiology
 
 - title: Automated RWE pipeline
   group: featured
   image: images/project_agent.png
-  link: https://github.com/AjouHDS
   description: Developing a pipeline to automate real-world evidence generation using agentic AI.
-  tags:
-    - informatics
-    - AI
-
-- title: GLP1RA safety in patients with or without diabetes/obesity
-  image: images/project_glp1ra.png
-  link: https://github.com/AjouHDS
-  description: A comparative effectiveness study on the safety of novel GLP-1 receptor agonists such as semaglutide and tirzepatide in diabetic and non-diabetic, obese patients.
   tags:
     - clinical
-    - ohdsi
-
-- title: Automated RWE pipeline
-  image: images/project_agent.png
-  link: https://github.com/AjouHDS
-  description: Developing a pipeline to automate real-world evidence generation using agentic AI.
-  tags:
     - informatics
     - AI
 
-- title: Project1
-  subtitle: a subtitle
+- title: Automated Medical Image Analysis
+  group: featured
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: We develop medical image analysis models tailored for clinical settings and conduct research to enhance their practical utility (e.g., integration with visual language models).
   tags:
-    - resource
+    - clinical
+    - AI
+    - informatics
 
-- title: Project2
-  subtitle: a subtitle
+- title: Safety evaluation of drug exposure in pregnant women
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: This study examines whether various medications used during pregnancy exert negative impacts on the fetus, such as birth defects and developmental disorders.
   tags:
-    - resource
-    - publication
+    - clinical
+    - epidemiology
 
-- title: Project3
-  subtitle: a subtitle
+- title: Heterogeneous effects of psychiatric drugs based on variability in physical indicators
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+  description: This study investigates whether the effects of psychiatric medications varies depending on the variability of physical indicators, such as physical activity and body weight.
+    tags:
+    - clinical
+    - epidemiology
 
-- title: Project4
-  subtitle: a subtitle
+- title: Real-world evidence of allergen immunotherapy in patients with asthma
   image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  description: This study evaluates the real-world effectiveness and safety of allergen immunotherapy in patients with asthma.
   tags:
-    - software
+    - clinical
+    - epidemiology
