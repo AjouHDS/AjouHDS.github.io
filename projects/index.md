@@ -20,4 +20,4 @@ nav:
 
 {% include search-info.html %}
 
-{% include list.html component="card" data="projects" filter="group != 'featured'" style="small" %}
+{% include list.html component="card" data="projects" style="small" %}
