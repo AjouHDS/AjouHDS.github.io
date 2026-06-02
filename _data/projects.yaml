@@ -17,35 +17,36 @@
 - title: Automated Medical Image Analysis
   group: featured
   image: images/medical_image_analysis.png
-  description: We develop medical image analysis models tailored for clinical settings and conduct research to enhance their practical utility (e.g., integration with visual language models).
+  description: We develop automated medical image analysis platforms (including visual language models).
   tags:
     - clinical
     - AI
     - informatics
 
 - title: Safety evaluation of drug exposure in pregnant women
-  image: images/photo.jpg
+  image: images/pregnancy_drug.jpg
   description: This study examines whether various medications used during pregnancy exert negative impacts on the fetus, such as birth defects and developmental disorders.
   tags:
     - clinical
     - epidemiology
 
 - title: Heterogeneous effects of psychiatric drugs based on variability in physical indicators
-  image: images/photo.jpg
+  image: images/brain_drug.jpg
   description: This study investigates whether the effects of psychiatric medications varies depending on the variability of physical indicators, such as physical activity and body weight.
   tags:
     - clinical
     - epidemiology
 
-- title: Real-world evidence of allergen immunotherapy in patients with asthma
-  image: images/photo.jpg
-  description: This study evaluates the real-world effectiveness and safety of allergen immunotherapy in patients with asthma.
+- title: Real-world evidence of allergen immunotherapy in patients with asthma/rhinitis
+  image: images/asthma_image.jpeg
+  description: This study evaluates the real-world effectiveness and safety of allergen immunotherapy in patients with asthma and rhinitis.
   tags:
     - clinical
     - epidemiology
 
-- title: Development of guidelines for drug evaluation and clinical trials utilizing RWD
-  description: We develop guidelines for the use of RWD in drug evaluation and clinical trials, funded by a Korean government grant.
+- title: Development of guidelines for clinical trials utilizing RWD
+  image: images/rwe_guideline_image.png
+  description: We develop guidelines for the use of RWD in clinical trials, funded by a Korean government grant.
   tags:
     - clinical
     - epidemiology
