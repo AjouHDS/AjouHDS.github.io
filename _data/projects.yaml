@@ -44,7 +44,8 @@
     - clinical
     - epidemiology
 
-- title: Development of guidelines for clinical trials utilizing RWD
+- title: Development of guidelines for utilizing RWD in clinical trials
+  group: featured
   image: images/rwe_guideline_image.png
   description: We develop guidelines for the use of RWD in clinical trials, funded by a Korean government grant.
   tags:

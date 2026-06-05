@@ -16,7 +16,7 @@ nav:
 ## More
 {% include search-box.html %}
 
-{% include tags.html tags="project, grant, EHR, Claims, collaborative, OHDSI, resource, website" %}
+{% include tags.html tags="epidemology, ai, informatics" %}
 
 {% include search-info.html %}
 
