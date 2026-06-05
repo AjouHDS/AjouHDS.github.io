@@ -18,7 +18,7 @@ nav:
 ## More
 {% include search-box.html %}
 
-{% include tags.html tags="epidemology, ai, informatics" %}
+{% include tags.html tags="epidemiology, ai, informatics" %}
 
 {% include search-info.html %}
 
