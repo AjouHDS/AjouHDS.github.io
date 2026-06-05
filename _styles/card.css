@@ -47,4 +47,8 @@
   font-style: italic;
 }
 
+.grid > .card {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=card.css.map */
