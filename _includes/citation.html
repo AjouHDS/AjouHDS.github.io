@@ -18,8 +18,13 @@
         class="citation-image"
         aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
       >
+        {% unless citation.image %}
+          {% assign _pub_slug = citation.publisher | slugify | replace: "-", "_" %}
+          {% assign _journal_file = site.static_files | where_exp: "f", "f.path contains '/images/journals/' and f.basename == _pub_slug" | first %}
+          {% if _journal_file %}{% assign _resolved_image = _journal_file.path | remove_first: "/" %}{% endif %}
+        {% endunless %}
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ citation.image | default: _resolved_image | relative_url | uri_escape }}"
           alt="{{ citation.title | default: "citation image" | regex_strip }}"
           loading="lazy"
           {% include fallback.html %}
