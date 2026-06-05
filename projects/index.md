@@ -9,7 +9,9 @@ nav:
 
 ## Featured projects
 
+<div class="grid">
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
+</div>
 
 {% include section.html %}
 
