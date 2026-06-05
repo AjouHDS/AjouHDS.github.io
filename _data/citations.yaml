@@ -31,6 +31,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jacc.jpg
 - id: doi:10.1016/j.jacc.2026.03.088
   title: Single-Pill Combination Therapy for Hypertension
   authors:
@@ -45,6 +46,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jacc.jpg
 - id: doi:10.64898/2026.04.10.26350252
   title: 'Sex Differences in Comparative Effectiveness and Safety of Second-line Antidiabetic
     Agents: Real-world Evidence from Large-scale Multinational Study'
@@ -253,6 +255,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jacc_advances.jpg
 - id: doi:10.1101/2025.07.16.25331661
   title: Survival Outcomes after Monitoring, Surgery, or Radiotherapy for Clinically
     Localized Prostate Cancer
@@ -748,6 +751,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jacc_advances.jpg
 - id: doi:10.1016/J.JACADV.2024.101441
   title: Utilizing the Electronic Health Record to Evaluate Lipoprotein(a) Testing
     Within a Large Regional Health System
@@ -765,6 +769,7 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+  image: images/journals/jacc_advances.jpg
 - id: doi:10.3233/SHTI231242
   title: 'A De-Identification Model for Korean Clinical Notes: Using Deep Learning
     Models'
