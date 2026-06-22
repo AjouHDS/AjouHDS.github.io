@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1007/s12672-026-05392-4
+  title: Target trial emulation of survival outcomes for clinically localized prostate
+    cancer treatments
+  authors:
+  - Min Ho An
+  - Chungsoo Kim
+  - Kyungchan Min
+  - Kyu-Ho Yi
+  - Rae Woong Park
+  - Minji Jung
+  publisher: Discover Oncology
+  date: '2026-06-12'
+  link: https://doi.org/hb7pzm
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+  image: images/journals/discover_oncology.svg
 - id: doi:10.1016/j.jacc.2026.02.5123
   title: Comparative Cardiovascular Effectiveness of Glucagon-Like Peptide 1 Receptor
     Agonists and Sodium-Glucose Cotransporter 2 Inhibitors in Diabetes Mellitus
@@ -511,7 +528,7 @@
   - Rae Woong Park
   - Hae-Sim Park
   publisher: Annals of Allergy, Asthma &amp; Immunology
-  date: '2025-12-01'
+  date: '2026-05-01'
   link: https://doi.org/hbspc7
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
