@@ -15,7 +15,5 @@ We attended the Spring Conference of the Korean Society of Medical Informatics, 
 Prof. Kim and students from our lab participated. On June 26, Prof. Kim served as the chair of the session on cardiovascular and cerebrovascular disease research using standardized medical big data. It was our first academic conference attended as a group. We hope that our lab will actively participate in oral and poster presentation sessions at the next conference!
 
 {% include figure.html image="images/2026_kosmi_spring_1.jpg" %}
+
 {% include figure.html image="images/2026_kosmi_spring_2.jpg" %}
-
-
-
