@@ -1,7 +1,7 @@
 ---
 name: Chungsoo Kim
 image: images/chungsoo4.jpg
-role: pi
+role: principal-investigator
 affiliation: Assistant Professor
 aliases:
   - C Kim
