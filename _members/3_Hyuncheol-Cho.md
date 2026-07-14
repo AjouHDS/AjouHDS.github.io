@@ -1,6 +1,6 @@
 ---
 name: Hyuncheol Cho
-image: images/HC.png
+image: images/hcho.jpg
 description: Master Student
 role: ms
 ---
