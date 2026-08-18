@@ -16,6 +16,21 @@
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1016/j.jacc.2026.03.088
+  title: Single-Pill Combination Therapy for Hypertension
+  authors:
+  - Kyungseon Choi
+  - Chungsoo Kim
+  - Erica S. Spatz
+  - Harlan M. Krumholz
+  - Yuan Lu
+  publisher: JACC
+  date: '2026-07-01'
+  link: https://doi.org/hb2tmf
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
+  image: images/journals/jacc.jpg
 - id: doi:10.1007/s12672-026-05392-4
   title: Target trial emulation of survival outcomes for clinically localized prostate
     cancer treatments
@@ -61,21 +76,6 @@
   publisher: JACC
   date: '2026-06-01'
   link: https://doi.org/hbxp4v
-  orcid: 0000-0003-1802-1777
-  plugin: orcid.py
-  file: orcid.yaml
-  image: images/journals/jacc.jpg
-- id: doi:10.1016/j.jacc.2026.03.088
-  title: Single-Pill Combination Therapy for Hypertension
-  authors:
-  - Kyungseon Choi
-  - Chungsoo Kim
-  - Erica S. Spatz
-  - Harlan M. Krumholz
-  - Yuan Lu
-  publisher: JACC
-  date: '2026-05-01'
-  link: https://doi.org/hb2tmf
   orcid: 0000-0003-1802-1777
   plugin: orcid.py
   file: orcid.yaml
