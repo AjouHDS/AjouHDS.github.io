@@ -3,7 +3,7 @@ title: 2026 KOSMI Spring conference
 author: chungsoo-kim
 tags:
   - lab
-image: images/2026_kosmi_spring.png
+image: images/post_images/2026_kosmi_spring.png
 ---
 
 We attended the Spring Conference of the Korean Society of Medical Informatics, held at Cheongju OSCO from June 24 to 26, 2026.
@@ -14,6 +14,6 @@ Prof. Kim and students from our lab participated. On June 26, Prof. Kim served a
 김청수 교수는 6.26에 의료데이터 분석 표준화 기반 심뇌혈관질환 연구의 좌장 역할을 수행하였습니다. 
 다음 학회부터는 저희 연구실에서도 자유연제 및 포스터 발표가 활발히 이루어지기를 기대합니다!
 
-{% include figure.html image="images/2026_kosmi_spring_1.jpg" %}
+{% include figure.html image="images/post_images/2026_kosmi_spring_1.jpg" %}
 
-{% include figure.html image="images/2026_kosmi_spring_2.jpg" %}
+{% include figure.html image="images/post_images/2026_kosmi_spring_2.jpg" %}
