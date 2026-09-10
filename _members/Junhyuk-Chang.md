@@ -1,6 +1,6 @@
 ---
 name: Junhyuk Chang
-image: images/photo.png
+image: images/photo.jpg
 description: PhD Student
 role: phd
 ---
