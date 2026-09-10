@@ -12,14 +12,19 @@ Introducing the team members of the Ajou Health Data Sciences Lab. We strive for
 {% include section.html %}
 
 ## Current members
+
+### PI
 {% include list.html data="members" component="portrait" filter="role == 'principal-investigator'" %} 
 
+### Fellows/postdocs
 {% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
 
+### Graduate students
 {% include list.html data="members" component="portrait" filter="role == 'phd'" %}
 
 {% include list.html data="members" component="portrait" filter="role == 'ms'" %}
 
+### Interns
 {% include list.html data="members" component="portrait" filter="role == 'intern'" %}
 
 ## Alumni
