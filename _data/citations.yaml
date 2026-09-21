@@ -1,5 +1,27 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1161/JAHA.126.051284
+  title: "Missed Opportunities for Stroke Prevention in Patients With Hypertension:\
+    \ A\_Retrospective Case\u2013Control Study"
+  authors:
+  - Huanhuan Yang
+  - Yuntian Liu
+  - Chungsoo Kim
+  - Chenxi Huang
+  - Mitsuaki Sawano
+  - Patrick Young
+  - Jacob McFadden
+  - Mark Anderson
+  - John S. Burrows
+  - Harlan M. Krumholz
+  - John E. Brush
+  - Yuan Lu
+  publisher: Journal of the American Heart Association
+  date: '2026-09-18'
+  link: https://doi.org/hcj8sc
+  orcid: 0000-0003-1802-1777
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1111/dom.70985
   title: "Glucagon\u2010Like Peptide\u20101 Receptor Agonists and Risk of Mental Health\
     \ Disorders in Type 2 Diabetes: Active Comparator, New User Cohort Study"
