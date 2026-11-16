@@ -48,17 +48,17 @@
 <link rel="icon" href="">
 
 <meta name="title" content="">
-<meta name="description" content="Ajou Health Data Science Lab leds by Dr. Chungsoo Kim">
+<meta name="description" content="Ajou Health Data Science Lab led by Dr. Chungsoo Kim">
 
 <meta property="og:title" content="">
 <meta property="og:site_title" content="Ajou Health Data Science Lab">
-<meta property="og:description" content="Ajou Health Data Science Lab leds by Dr. Chungsoo Kim">
+<meta property="og:description" content="Ajou Health Data Science Lab led by Dr. Chungsoo Kim">
 <meta property="og:url" content="https://ajouhds.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="">
-<meta property="twitter:description" content="Ajou Health Data Science Lab leds by Dr. Chungsoo Kim">
+<meta property="twitter:description" content="Ajou Health Data Science Lab led by Dr. Chungsoo Kim">
 <meta property="twitter:url" content="https://ajouhds.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
@@ -74,7 +74,7 @@
       "@type": "WebSite",
     
     "name": "",
-    "description": "Ajou Health Data Science Lab leds by Dr. Chungsoo Kim",
+    "description": "Ajou Health Data Science Lab led by Dr. Chungsoo Kim",
     "headline": "",
     "publisher": {
       "@type": "Organization",
@@ -87,10 +87,10 @@
 <link rel="alternate" type="application/rss+xml" href="https://ajouhds.github.io/feed.xml">
 
   <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<!-- explicit url: Outfit and Noto Sans KR have no italic styles, which the auto-generated url requests -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&amp;family=Noto+Sans+KR:wght@300;400;600;700&amp;family=Roboto+Mono:wght@400;600&amp;display=swap" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
@@ -204,6 +204,10 @@
 
   
     <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/home.css" rel="stylesheet">
   
 
   
@@ -344,6 +348,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -383,7 +389,7 @@
 
 
 
-<header class="background" style="--image: url('/images/background2.png')" data-dark="true" data-big>
+<header class="background" style="--image: url('/images/background2.png')" data-dark="true">
   <a href="/" class="home">
     
     
@@ -399,6 +405,7 @@
   <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
 
   <nav>
+    
     
     
       
@@ -451,10 +458,37 @@
   
   
 
-  <section class="background" data-size="page">
-    <h1 id="welcome-to-the-ajou-health-data-science-lab">Welcome to the Ajou Health Data Science Lab!</h1>
+  <section class="background" data-size="full" data-dark="true">
+    <!--
+  <background></background>
+  <dark>true</dark>
+  <size>full</size>
+-->
 
-<p>We are striving to become a leading health data science laboratory that bridges healthcare data and actionable evidence to enhance patient outcomes and improve healthcare systems.</p>
+<div class="hero" style="--hero: url('/images/ajou1.jpg')">
+  <p class="hero-eyebrow">Department of Biomedical Informatics · Ajou University School of Medicine</p>
+  <h1 class="hero-title">Turning health data into <span>actionable evidence</span>
+</h1>
+  <p class="hero-text">
+    The Ajou Health Data Science Lab bridges large-scale healthcare data and real-world evidence
+    to improve patient outcomes and healthcare systems.
+  </p>
+  <div class="hero-actions">
+    <a class="hero-primary" href="/research">Explore our research <i class="fa-solid fa-arrow-right"></i></a>
+    <a class="hero-secondary" href="/contact">Join the lab</a>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat">
+<strong>91+</strong><span>Publications</span>
+</div>
+    <div class="hero-stat">
+<strong>8</strong><span>Research projects</span>
+</div>
+    <div class="hero-stat">
+<strong>14</strong><span>Lab members</span>
+</div>
+  </div>
+</div>
   </section>
 
   
@@ -468,77 +502,221 @@
   <size></size>
 -->
 
-<h2 id="highlights">Highlights</h2>
+<div class="cta">
+  <div>
+    <h2>We're recruiting</h2>
+    <p>Open positions for MS / PhD / integrated MS-PhD students and research instructors (NLP, LLM, AI agents preferred).</p>
+  </div>
+  <a href="/contact">See open positions <i class="fa-solid fa-arrow-right"></i></a>
+</div>
+  </section>
 
-<div class="feature">
-  <a href="/team" class="feature-image" aria-label="Our Team">
-    <img src="/images/ajou1.png" loading="lazy" alt="Our Team" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Team</p>
-    
-    
-<p>Meet our team, who are enjoying their time in the Ajou Health Data Science Lab.</p>
+  
+  
+  
 
-<div class="button-wrapper">
-    <a class="button" href="/team" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<p class="section-eyebrow">What we do</p>
+
+<h2 id="research-areas">Research areas</h2>
+
+<div class="areas">
+  <div class="area">
+    <span class="area-icon"><i class="fa-solid fa-earth-asia"></i></span>
+    <h3>Real-world evidence</h3>
+    <p>Reliable evidence from large-scale, multi-center epidemiological studies using the OMOP Common Data Model.</p>
+  </div>
+  <div class="area">
+    <span class="area-icon"><i class="fa-solid fa-brain"></i></span>
+    <h3>Clinical AI</h3>
+    <p>Clinical prediction models built with cutting-edge methods, including LLMs, foundation models, and agentic AI.</p>
+  </div>
+  <div class="area">
+    <span class="area-icon"><i class="fa-solid fa-database"></i></span>
+    <h3>Health data infrastructure</h3>
+    <p>Data standardization, harmonization, and curation for reproducible medical research.</p>
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="section-head">
+  <div>
+    <p class="section-eyebrow">Latest</p>
+    <h2>News</h2>
+  </div>
+  
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="/blog" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>Meet our team</span>
+        <span>All news</span>
       
     </a>
   </div>
 
 
-  </div>
 </div>
 
-<div class="feature" data-flip="">
-  <a href="/projects" class="feature-image" aria-label="Our Projects">
-    <img src="/images/project_glp1ra.png" loading="lazy" alt="Our Projects" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+<div class="news">
+
+  <a class="news-card" href="/2026/08/05/arpa-h.html">
+    <img src="/images/post_images/260805_arpa_logo.jpg" alt="" loading="lazy">
+    <div>
+      <span class="news-date">Aug 5, 2026</span>
+      <span class="news-title">New ARPA-H Project</span>
+    </div>
   </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Projects</p>
-    
-    
-<p>Check out our latest research projects. These are novel and important projects aimed at improving patients’ health.</p>
 
-<div class="button-wrapper">
-    <a class="button" href="/projects" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Browse our projects</span>
-      
-    </a>
-  </div>
+  <a class="news-card" href="/2026/07/30/bahir-farewell.html">
+    <img src="/images/post_images/260730_bahir_farewell.jpg" alt="" loading="lazy">
+    <div>
+      <span class="news-date">Jul 30, 2026</span>
+      <span class="news-title">Group meal (Bahir farewell)</span>
+    </div>
+  </a>
 
+  <a class="news-card" href="/2026/07/01/yale_adjunct.html">
+    <img src="/images/yale.png" alt="" loading="lazy">
+    <div>
+      <span class="news-date">Jul 1, 2026</span>
+      <span class="news-title">Prof Kim's Yale appointment is effective now</span>
+    </div>
+  </a>
 
-  </div>
 </div>
+  </section>
 
-<div class="feature">
-  <a href="/research" class="feature-image" aria-label="Our Research">
-    <img src="/images/citation_images/2025_JAMA.png" loading="lazy" alt="Our Research" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-  </a>
-  <div class="feature-text">
-    
-      <p class="feature-title">Our Research</p>
-    
-    
-<p>Check out our amazing results! We are actively publishing in various high-impact journals.</p>
+  
+  
+  
 
-<div class="button-wrapper">
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<div class="section-head">
+  <div>
+    <p class="section-eyebrow">Selected</p>
+    <h2>Publications</h2>
+  </div>
+  
+
+
+
+  <div class="button-wrapper">
     <a class="button" href="/research" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
       <i class="icon fa-solid fa-arrow-right"></i>
       
-        <span>See our publications</span>
+        <span>All publications</span>
       
     </a>
   </div>
 
 
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbv4fj" class="citation-image" aria-label="Real-world evidence for comparative safety of second-line antihyperglycemic agents in older adults with type 2 diabetes">
+        
+        <img src="/images/journals/nature_communications.svg" alt="Real-world evidence for comparative safety of second-line antihyperglycemic agents in older adults with type 2 diabetes" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hbv4fj" class="citation-title">
+        Real-world evidence for comparative safety of second-line antihyperglycemic agents in older adults with type 2 diabetes
+      </a>
+
+      <div class="citation-authors" data-tooltip="Chungsoo Kim, Fan Bu, Clair Blacketer, Anna Ostropolets, Talita Duarte-Salles, Benjamin Viernes, Thomas Falconer, Andrea Pistillo, Jing Li, Can Yin, Mui Van Zandt, Paul Nagy, Akihiko Nishimura, Evan Minty, Seng Chan You, Mitsuaki Sawano, Shoko Sawano, Ja Young Jeon, Arya Aminorroaya, Lovedeep S. Dhingra, Aline F. Pedroso, Phyllis Thangaraj, David A. Dorr, Nicole Pratt, Kenneth K. C. Man, Wallis C. Y. Lau, Daniel R. Morales, Rohan Khera, Martijn J. Schuemie, Patrick B. Ryan, George Hripcsak, Harlan M. Krumholz, Marc A. Suchard, Yuan Lu" tabindex="0">
+        Chungsoo Kim, Fan Bu, Clair Blacketer, Anna Ostropolets, Talita Duarte-Salles, …, Patrick B. Ryan, George Hripcsak, Harlan M. Krumholz, Marc A. Suchard, Yuan Lu
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">04 Apr 2026</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-026-71307-0</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/hbgfng" class="citation-image" aria-label="Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for Obesity in the US">
+        
+        <img src="/images/journals/jama.png" alt="Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for Obesity in the US" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/hbgfng" class="citation-title">
+        Uptake of and Disparities in Semaglutide and Tirzepatide Prescribing for Obesity in the US
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Chungsoo Kim, Joseph S. Ross, Ania M. Jastreboff, Daniella Meeker, Harry Freedman, Harlan M. Krumholz, Yuan Lu
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">JAMA</span>
+         · 
+        <span class="citation-date">24 Jun 2025</span>
+         · 
+        <span class="citation-id">doi:10.1001/JAMA.2025.4735</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
   </div>
 </div>
   </section>
@@ -564,7 +742,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="mailto:ted9219@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+    <a class="button" href="mailto:ted9219@ajou.ac.kr" data-tooltip="Email" data-style="bare" aria-label="Email">
       <i class="icon fa-solid fa-envelope"></i>
       
     </a>
