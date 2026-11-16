@@ -15,4 +15,6 @@ nav:
 
 {% include search-info.html %}
 
+<div class="post-list">
 {% include list.html data="posts" component="post-excerpt" %}
+</div>

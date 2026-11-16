@@ -1,5 +1,5 @@
 {% if include.lookup %}
-  {% assign post = site.posts 
+  {% assign post = site.posts
     | where_exp: "post", "post.slug == include.lookup"
     | first
     | default: include
@@ -8,53 +8,49 @@
   {% assign post = include %}
 {% endif %}
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    {% assign url = post.url | relative_url | uri_escape %}
-    {% assign title = post.title %}
-    {% assign image = post.image | relative_url | uri_escape %}
+{% assign url = post.url | relative_url | uri_escape %}
+{% assign title = post.title %}
 
-    {% if image %}
-      <a
-        href="{{ url }}"
-        class="post-excerpt-image"
-        aria-label="{{ title | default: "excerpt link" | regex_strip }}"
-      >
+{% assign excerpt = post.content
+  | default: ""
+  | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+  | default: post.excerpt
+  | default: ""
+  | strip_html
+  | strip_newlines
+  | truncate: 140
+%}
+{% assign search = post.content
+  | strip_html
+  | strip_newlines
+  | regex_strip
+%}
+
+<div class="post-excerpt-container">
+  <div class="post-excerpt" data-search="{{ search | append: " " | append: title | xml_escape }}">
+    <a
+      href="{{ url }}"
+      class="post-excerpt-image"
+      aria-label="{{ title | default: "post link" | regex_strip }}"
+      tabindex="-1"
+    >
+      {% if post.image %}
         <img
-          src="{{ image }}"
-          alt="{{ title | default: "excerpt image" | regex_strip }}"
+          src="{{ post.image | relative_url | uri_escape }}"
+          alt=""
           loading="lazy"
           {% include fallback.html %}
         >
-      </a>
-    {% endif %}
+      {% else %}
+        <i class="fa-regular fa-newspaper"></i>
+      {% endif %}
+    </a>
 
     <div class="post-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
-
-      {%
-        include post-info.html
-        author=post.author
-        published=post.date
-        updated=post.last_modified_at
-        tags=post.tags
-      %}
-
-      {% assign excerpt = post.content
-        | default: ""
-        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-        | default: post.excerpt
-        | default: ""
-        | strip_html
-      %}
-      {% assign search = post.content
-        | strip_html
-        | strip_newlines
-        | regex_strip
-      %}
-      <p data-search="{{ search }}">
-        {{ excerpt }}
-      </p>
+      <span class="post-excerpt-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a href="{{ url }}" class="post-excerpt-title">{{ title }}</a>
+      <p class="post-excerpt-summary">{{ excerpt }}</p>
+      {% include tags.html tags=post.tags link="blog" %}
     </div>
   </div>
 </div>

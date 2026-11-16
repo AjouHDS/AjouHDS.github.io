@@ -1,14 +1,14 @@
 # site properties and page defaults
 title: Ajou Health Data Science Lab
 subtitle: 
-description: Ajou Health Data Science Lab leds by Dr. Chungsoo Kim
+description: Ajou Health Data Science Lab led by Dr. Chungsoo Kim
 header: images/background2.png
 footer: images/background2.png
 proofer: false
 
 # site social media and other links
 links:
-  email: ted9219@gmail.com
+  email: ted9219@ajou.ac.kr
   orcid: 0000-0003-1802-1777
   google-scholar: https://scholar.google.com/citations?user=9smDt4kAAAAJ&hl=en
   github: ChungsooKim

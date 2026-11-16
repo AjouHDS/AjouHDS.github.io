@@ -1,17 +1,17 @@
 ---
-title: LEGEND-T2DM safety in older audlts paper featured in the media
+title: LEGEND-T2DM safety in older adults paper featured in the media
 author: chungsoo-kim
 tags:
   - notice
   - lab
-image: images/post_images/nature_comms_health_chosun.png
+image: images/post_images/nature_comms_health_chosun.jpg
 ---
 
 A Nature Communications paper published by Prof. Chungsoo Kim of the Ajou Health Data Science Lab regarding comparative safety among second-line antihyperglycemic medications in older adults with diabetes has been featured in the media. Below is the original article.
 
 의료데이터과학연구실의 김청수 교수가 출판한 고령 당뇨환자에서의 당뇨약물 간 안전성 차이에 관한 Nature Communications 논문이 언론사에 소개되었습니다. 김청수 교수는 글로벌 관찰연구 커뮤니티 OHDSI의 LEGEND-T2DM 팀과 협업하여 글로벌 데이터베이스에서 65세이상 당뇨를 갖는 노인 환자에서 2차 당뇨치료제 간 안전성 차이를 규명하였습니다. 아래는 기사 원문입니다.
 
-{% include figure.html image="images/post_images/nature_comms_health_chosun.png" %}
+{% include figure.html image="images/post_images/nature_comms_health_chosun.jpg" %}
 
 고령이 될수록 당뇨 관리 방식도 달라져야 합니다. 특히 저혈당 위험이 커지는 만큼 주의가 필요한데요. 최근 고령 당뇨병 환자에서 어떤 약을 선택하느냐에 따라 부작용 위험이 달라진다는 연구 결과가 나왔습니다.
 

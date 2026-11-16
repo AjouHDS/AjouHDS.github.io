@@ -16,7 +16,7 @@
 
 - title: Automated Medical Image Analysis
   group: featured
-  image: images/medical_image_analysis.png
+  image: images/medical_image_analysis.jpg
   description: We develop automated medical image analysis platforms (including visual language models).
   tags:
     - clinical
@@ -46,7 +46,7 @@
 
 - title: Development of an executable ontology for the safety deployment of Agentic AI
   group: featured
-  image: images/ontology.png
+  image: images/ontology.jpg
   description: This study, supported by the Korea ARPA-H research grant, develops an executable ontology for the secure deployment of agent-type AI focused on stroke treatment workflows.
   tags:
     - clinical
@@ -54,7 +54,7 @@
     - informatics
 
 - title: Development of guidelines for utilizing RWD in clinical trials
-  image: images/rwe_guideline_image.png
+  image: images/rwe_guideline_image.jpg
   description: We develop guidelines for the use of RWD in clinical trials, funded by a Korean government grant.
   tags:
     - clinical

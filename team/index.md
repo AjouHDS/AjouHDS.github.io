@@ -41,9 +41,9 @@ Introducing the team members of the Ajou Health Data Sciences Lab. We strive for
 
 {% capture content %}
 
-{% include figure.html image="images/ajou1.png" %}
-{% include figure.html image="images/ajou2.png" %}
-{% include figure.html image="images/ajou4.png" %}
+{% include figure.html image="images/ajou1.jpg" %}
+{% include figure.html image="images/ajou2.jpg" %}
+{% include figure.html image="images/ajou4.jpg" %}
 
 {% endcapture %}
 

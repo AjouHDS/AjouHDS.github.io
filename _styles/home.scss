@@ -1,0 +1,381 @@
+---
+---
+
+// styles for the redesigned home page and shared site polish
+
+$page: 1100px;
+$mobile: 700px;
+
+// ---------- header / nav polish ----------
+
+header {
+  backdrop-filter: saturate(140%) blur(6px);
+}
+
+header .title {
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.3px;
+}
+
+nav {
+  gap: 4px;
+  text-transform: none;
+  font-weight: var(--semi-bold);
+}
+
+nav > a {
+  padding: 6px 14px;
+  border-radius: 999px;
+  transition: background var(--transition), color var(--transition);
+}
+
+nav > a:hover,
+nav > a[aria-current="page"] {
+  background: #ffffff1f;
+  color: var(--secondary);
+}
+
+// ---------- shared polish ----------
+
+h1 {
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-weight: var(--semi-bold);
+  border-bottom: none;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 999px;
+}
+
+.card,
+.feature-image,
+.post-excerpt {
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+// ---------- hero ----------
+
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: min(78vh, 720px);
+  padding: 80px max(24px, calc((100% - #{$page}) / 2));
+  color: #ffffff;
+  text-align: center;
+  background:
+    linear-gradient(110deg, #071a3aee 0%, #0f4c9cc4 55%, #14b8c455 100%),
+    var(--hero) center / cover no-repeat;
+  overflow: hidden;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 6px 14px;
+  border: 1px solid #ffffff40;
+  border-radius: 999px;
+  background: #ffffff14;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+.hero-title {
+  max-width: 860px;
+  margin: 0 auto 20px;
+  font-family: var(--title);
+  font-size: clamp(2.2rem, 5.5vw, 4rem);
+  font-weight: var(--bold);
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  text-transform: none;
+  text-align: center;
+}
+
+.hero-title span {
+  background: linear-gradient(90deg, #7dd3fc, #5eead4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-text {
+  max-width: 660px;
+  margin: 0 auto 32px;
+  text-align: center;
+  font-size: 1.15rem;
+  opacity: 0.9;
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+  transition: transform var(--transition), background var(--transition);
+}
+
+.hero-actions a:hover {
+  transform: translateY(-2px);
+}
+
+.hero-primary {
+  background: #ffffff;
+  color: #0f4c9c !important;
+}
+
+.hero-secondary {
+  border: 1px solid #ffffff80;
+  color: #ffffff !important;
+}
+
+.hero-secondary:hover {
+  background: #ffffff1f;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px 48px;
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid #ffffff2e;
+}
+
+.hero-stat strong {
+  display: block;
+  font-family: var(--title);
+  font-size: 2.2rem;
+  font-weight: var(--bold);
+  line-height: 1.1;
+}
+
+.hero-stat span {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+// ---------- section intro ----------
+
+.section-eyebrow {
+  margin: 0;
+  color: var(--secondary);
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.section-head h2 {
+  margin-top: 8px;
+}
+
+.section-head .button-wrapper .button {
+  margin: 0 0 20px;
+}
+
+// ---------- research areas ----------
+
+.areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.area {
+  padding: 28px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  text-align: left;
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+}
+
+.area:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+  border-color: transparent;
+}
+
+.area-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.area h3 {
+  margin: 20px 0 10px;
+  font-size: 1.25rem;
+}
+
+.area p {
+  margin: 0;
+  color: var(--dark-gray);
+  line-height: var(--compact);
+}
+
+// ---------- news ----------
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  color: var(--text) !important;
+  text-align: left;
+  text-decoration: none;
+  transition: transform var(--transition);
+}
+
+.news-card:hover {
+  transform: translateY(-4px);
+}
+
+.news-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.news-card div {
+  padding: 18px 20px 22px;
+}
+
+.news-date {
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+
+.news-title {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--heading);
+  font-size: 1.1rem;
+  font-weight: var(--semi-bold);
+  line-height: 1.35;
+}
+
+.news-card:hover .news-title {
+  color: var(--primary);
+}
+
+// ---------- recruiting call to action ----------
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 44px;
+  border-radius: calc(var(--rounded) * 1.5);
+  background: linear-gradient(120deg, #0b2a5b, #0f4c9c 60%, #14b8c4);
+  color: #ffffff;
+  text-align: left;
+}
+
+.cta h2 {
+  margin: 0 0 8px;
+  color: #ffffff;
+}
+
+.cta h2:after {
+  display: none;
+}
+
+.cta p {
+  margin: 0;
+  max-width: 560px;
+  opacity: 0.9;
+}
+
+.cta a {
+  padding: 12px 26px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #0f4c9c !important;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+@media (max-width: $mobile) {
+  .hero {
+    min-height: unset;
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  .hero-stats {
+    gap: 16px 32px;
+    margin-top: 40px;
+  }
+
+  .cta {
+    padding: 28px;
+  }
+}

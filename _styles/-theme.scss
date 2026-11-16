@@ -3,33 +3,33 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0795d9;
-  --secondary: #7dd3fc;
-  --text: #000000;
+  --primary: #0f4c9c;
+  --secondary: #14b8c4;
+  --text: #0f172a;
   --background: #ffffff;
-  --background-alt: #fafafa;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
-  --dark-gray: #404040;
-  --overlay: #00000020;
+  --background-alt: #f3f6fb;
+  --light-gray: #e2e8f0;
+  --gray: #64748b;
+  --dark-gray: #334155;
+  --overlay: #0f172a1f;
 }
 [data-dark="true"] {
-  --primary: #0795d9;
-  --secondary: #075985;
-  --text: #ffffff;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
-  --dark-gray: #b0b0b0;
-  --overlay: #ffffff10;
+  --primary: #6aaeff;
+  --secondary: #22d3ee;
+  --text: #f1f5f9;
+  --background: #0b1220;
+  --background-alt: #0f1a2e;
+  --light-gray: #1e293b;
+  --gray: #94a3b8;
+  --dark-gray: #cbd5e1;
+  --overlay: #00000066;
 }
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Outfit", sans-serif;
+  --heading: "Outfit", sans-serif;
+  --body: "Noto Sans KR", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
@@ -38,17 +38,17 @@
   --xxl: 1.6rem;
 
   // font weights
-  --thin: 200;
+  --thin: 300;
   --regular: 400;
-  --semi-bold: 500;
-  --bold: 600;
+  --semi-bold: 600;
+  --bold: 700;
 
   // text line spacing
-  --spacing: 2;
-  --compact: 1.5;
+  --spacing: 1.9;
+  --compact: 1.6;
 
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 12px;
+  --shadow: 0 8px 28px -10px var(--overlay);
   --transition: 0.2s ease;
 }

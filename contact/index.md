@@ -8,11 +8,11 @@ nav:
 # {% include icon.html icon="fa-regular fa-envelope" %} Open Position & Contact Information
 
 We are actively recruiting new members! 
-If you are interested, please send your CV and brief research statement to our [email](ted9219@ajou.ac.kr)
+If you are interested, please send your CV and brief research statement to our [email](mailto:ted9219@ajou.ac.kr)
 
 **Open position(s)**
 
-- MS/PhD/integreted PhD (전일제 대학원생, 석사/박사/석박사통합 가능) [Job description](https://go.hibrain.io/s/0HeiAkC8OBhn6eE0b-odi)
+- MS/PhD/integrated PhD (전일제 대학원생, 석사/박사/석박사통합 가능) [Job description](https://go.hibrain.io/s/0HeiAkC8OBhn6eE0b-odi)
 - Research Instructor (연구강사) : 박사학위 소지(예정) 자, NLP/LLM/AI agent 분야 우대
 
 
@@ -44,7 +44,7 @@ Suwon-si, 16499, Gyeonggi-do, Republic of Korea
 
 {%
   include figure.html
-  image="images/ajou1.png"
+  image="images/ajou1.jpg"
   caption="Ajou University Medical Center"
 %}
 
@@ -54,32 +54,10 @@ Suwon-si, 16499, Gyeonggi-do, Republic of Korea
 
 {%
   include figure.html
-  image="images/ajou4.png"
+  image="images/ajou4.jpg"
   caption="Innovative Medical R&D Building (Lab located)"
 %}
 
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}

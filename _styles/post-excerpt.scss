@@ -1,73 +1,104 @@
 ---
 ---
 
-$thumb-size: 200px;
-$wrap: 800px;
+// blog list: compact card grid (image, date, title, 2-line summary, tags)
 
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin: 24px 0;
+}
+
+// year headings produced by list.html span the full row
+.post-list > h3 {
+  grid-column: 1 / -1;
+  margin: 16px 0 0;
+}
+
+// container must not take a grid cell, so search can hide cards cleanly
 .post-excerpt-container {
-  container-type: inline-size;
+  display: contents;
 }
 
 .post-excerpt {
   display: flex;
-  margin: 20px 0;
+  flex-direction: column;
+  width: 100%;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
   box-shadow: var(--shadow);
+  text-align: left;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.post-excerpt:hover {
+  transform: translateY(-4px);
 }
 
 .post-excerpt-image {
-  width: $thumb-size;
-  height: $thumb-size;
-  flex-shrink: 0;
-  align-self: center;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  aspect-ratio: 16 / 10;
+  background: var(--background-alt);
+  color: var(--gray);
+  font-size: 2rem;
   overflow: hidden;
 }
 
 .post-excerpt-image img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  display: block;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.post-excerpt:hover .post-excerpt-image img {
+  transform: scale(1.04);
 }
 
 .post-excerpt-text {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 20px 30px;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  padding: 18px 20px 20px;
+}
+
+.post-excerpt-date {
+  color: var(--gray);
+  font-size: 0.85rem;
+}
+
+.post-excerpt-title {
+  color: var(--text) !important;
+  font-family: var(--heading);
+  font-size: 1.1rem;
+  font-weight: var(--semi-bold);
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.post-excerpt:hover .post-excerpt-title {
+  color: var(--primary) !important;
+}
+
+.post-excerpt-summary {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin: 0 !important;
+  overflow: hidden;
+  color: var(--dark-gray);
+  font-size: 0.92rem;
+  line-height: 1.6;
   text-align: left;
 }
 
-.post-excerpt-text > * {
-  margin: 0 !important;
-}
-
-.post-excerpt-text > a:first-child {
-  width: 100%;
-  font-weight: var(--semi-bold);
-}
-
-.post-excerpt-text > div {
+.post-excerpt .tags {
   justify-content: flex-start;
-}
-
-.post-excerpt-text > p {
-  width: 100%;
-}
-
-@container (max-width: #{$wrap}) {
-  .post-excerpt {
-    flex-direction: column;
-  }
-
-  .post-excerpt-image {
-    width: 100%;
-  }
+  margin-top: auto;
+  padding-top: 6px;
 }

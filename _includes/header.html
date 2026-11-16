@@ -12,9 +12,6 @@
   {% if dark == true or dark == false %}
     data-dark="{{ dark }}"
   {% endif %}
-  {% if page.url == "/" %}
-    data-big
-  {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
     {% if logo %}
@@ -45,10 +42,12 @@
       | where_exp: "page", "page.nav"
       | sort: "nav.order"
     %}
+    {% assign current_url = include.current | default: "" %}
     {% for page in pages %}
       {% if page.nav %}
         <a
           href="{{ page.dir | relative_url | uri_escape }}"
+          {% if current_url contains page.dir %}aria-current="page"{% endif %}
           data-tooltip="{{ page.nav.tooltip | xml_escape }}"
         >
           {{ page.title }}
