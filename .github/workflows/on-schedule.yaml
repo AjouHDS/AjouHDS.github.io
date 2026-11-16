@@ -20,4 +20,12 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
     secrets: inherit
     with:
-      open-pr: true
+      # commit citation updates straight to main
+      # (repo does not allow GitHub Actions to open pull requests)
+      open-pr: false
+
+  # commits made by the workflow token don't trigger on-push,
+  # so rebuild the site here to publish updated citations
+  build-site:
+    needs: update-citations
+    uses: ./.github/workflows/build-site.yaml
